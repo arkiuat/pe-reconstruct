@@ -17,10 +17,10 @@ DN 13 are (in addition to the bilara-data JSON files themselves for
 each cognate of the sutta) a single script and three simple JSON
 files for each sutta, provided as part of this demo.
 
-* ./pe-reconstruct/restore-sutta.raku
-* ./pe-reconstruct/map/dn\*_pe-map.json
-* ./pe-reconstruct/map/en/dn\*_pe-subst-en-sujato.json
-* ./pe-reconstruct/map/pli/dn\*_pe-subst-pli-ms.json
+    ./restore-sutta.raku
+    ./map/dn\*_pe-map.json
+    ./map/en/dn\*_pe-subst-en-sujato.json
+    ./map/pli/dn\*_pe-subst-pli-ms.json
 
 ### restore-sutta.raku ###
 
