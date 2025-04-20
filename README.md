@@ -61,7 +61,7 @@ How to run the demo
 If you can't run the script but want to inspect the results, the
 directory 
 
-    ./pe-reconstruct/demo 
+    ./demo 
 
 contains a pre-generated set of files with the long peyyala expanded.
 
