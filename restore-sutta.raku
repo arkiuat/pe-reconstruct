@@ -2,7 +2,7 @@
 # script to expand the anupubbasikkhā peyyāla in Sujato's translations of DN's Sīlakkhandhavagga
 use JSON::Tiny;
 my constant @cognates    = <translation html comment root variant reference>;
-my constant $RECONST-DIR = 'reconst';  	# relative to . (pe); use '../bilara-data/' if you want that
+my constant $RECONST-DIR = 'reconst';  	# relative to . (pe); prefix '../bilara-data/' if you want that
 my %cache;				# cache so we don't have to read & parse dn2 eleven times
 
 # Takes up to two optional arguments:
@@ -116,7 +116,7 @@ sub jsonify (Hash $segment) {
     my @json;
     for $segment.keys.sort(&seg-id-cmp) -> $id { 
 	next unless $segment{$id}.defined;
-	@json.push( (q[  "], $id, q[": "], $segment{$id}, q[",]).join );
+	@json.push( (q[  "], $id, q[": "], $segment{$id}, q[", ]).join );
     }
     @json.unshift( q[{] );
     @json[*-1] ~~ s/\,$//;
@@ -145,3 +145,8 @@ sub seg-id-cmp (Str $id1, Str $id2) {
 #    side-by-side and interlinear display) are still just stubs copied
 #    from the English ones; need real ones. Making this lower priority
 #    for now because it's a data issue, not a programming issue.
+#
+# 3. Might want jsonify's parameter to be a Map, since we don't want it
+#    to be modified, but that might mean we need to cast Hash to Map
+#    when calling it on a Hash (which is the only way we call it so far,
+#    I think)
