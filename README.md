@@ -83,7 +83,7 @@ Or to spell it out:
 
 The script uses relative pathnames via ../bilara-data to read the
 original elided versions of the cognate files, which is why
-./pe-reconstruct and ./bilara-data must be sister directories, that
+pe-reconstruct and bilara-data must be sister directories, that
 is, side-by-side in the same parent directory.
 
 Command-line parameters
