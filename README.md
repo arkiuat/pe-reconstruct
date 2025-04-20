@@ -61,7 +61,7 @@ How to run the demo
 If you can't run the script but want to inspect the results, the
 directory 
 
->   ./pe-reconstruct/demo 
+    ./pe-reconstruct/demo 
 
 contains a pre-generated set of files with the long peyyala expanded.
 
@@ -94,7 +94,7 @@ expanded version of all six cognates of all eleven suttas.
 If you want to generate the reconstructed cognate files for just
 one sutta, specify its number on the command line, e. g.:
 
-> ./restore-sutta 12
+    ./restore-sutta 12
 
 will only reconstruct (with peyyala expanded) the files for
 *Lohiccasutta*. 
@@ -104,7 +104,7 @@ want to regenerate only a single cognate of a single sutta, you can
 specify both the sutta-number and the cognate tag on the command
 line:
 
-> ./restore-sutta 12 translation
+    ./restore-sutta 12 translation
 
 will generate only the expanded translation.json cognate file for
 *Lohiccasutta*.
