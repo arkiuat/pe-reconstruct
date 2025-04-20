@@ -18,9 +18,9 @@ each cognate of the sutta) a single script and three simple JSON
 files for each sutta, provided as part of this demo.
 
     ./restore-sutta.raku
-    ./map/dn\*_pe-map.json
-    ./map/en/dn\*_pe-subst-en-sujato.json
-    ./map/pli/dn\*_pe-subst-pli-ms.json
+    ./map/dn*_pe-map.json
+    ./map/en/dn*_pe-subst-en-sujato.json
+    ./map/pli/dn*_pe-subst-pli-ms.json
 
 ### restore-sutta.raku ###
 
