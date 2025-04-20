@@ -117,13 +117,13 @@ programming language, Rakudo is the current main implementation.)
 
 Directions for this may be found at the following URLs:
 
-https://rakudo.org/downloads
-https://raku.land/cpan:MORITZ/JSON::Tiny
+    https://rakudo.org/downloads
+    https://raku.land/cpan:MORITZ/JSON::Tiny
 
 You may want to install zef, the standard Raku module installer,
 before installing JSON::Tiny.
 
-https://raku.land/zef:ugexe/zef
+    https://raku.land/zef:ugexe/zef
 
 ### Additional information ###
 
