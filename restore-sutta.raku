@@ -116,7 +116,7 @@ sub jsonify (Hash $segment) {
     my @json;
     for $segment.keys.sort(&seg-id-cmp) -> $id { 
 	next unless $segment{$id}.defined;
-	@json.push( (q[  "], $id, q[": "], $segment{$id}, q[", ]).join );
+	@json.push( (q[  "], $id, q[": "], $segment{$id}, q[",]).join );
     }
     @json.unshift( q[{] );
     @json[*-1] ~~ s/\,$//;
