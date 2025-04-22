@@ -27,7 +27,7 @@ files for each sutta, provided as part of this demo.
 The script is written in Raku, but I plan to reimplement in Python
 if there is interest in this. The only dependency is on a standard
 JSON-parsing module: more information on this below. See below also
-for information on command-line arguments that the script will accept.
+for command-line arguments that the script will accept.
 
 ### The pe-map.json files ###
 
@@ -132,6 +132,19 @@ before installing JSON::Tiny.
 * https://raku.land/ is a directory of Raku distributions such as modules, etc.
 * https://raku.org/ is a one-stop-shop that should link to most of the above.
 
+Additional background on this project
+=====================================
+
+Some sheets developed to assist with the process of developing the
+\*pe-map.json files.
+
+https://docs.google.com/spreadsheets/d/1WxgF3UnEtbZBj_0ikXYsbquO0h8XfxRBrVWuaWUQYh8/
+
+I have documented the procedure I follow to put together pe-map.json
+and pe-subst.json files, and may publish that here at some point,
+perhaps after I try applying it to a few Majjhima Nikāya suttas,
+which will probably shake some bugs out of the process.
+
 To Do
 =====
 
@@ -168,7 +181,7 @@ Updates to the script
 Right now the script is highly specific, with both DN (as domain)
 and DN2 (as text-source) hard-coded in. In the next phase I hope
 to extend this so that the same script will also handle
-elision-restorations in Majjima Nikāya suttas as well, with different
+elision-restorations in Majjhima Nikāya suttas as well, with different
 suttas used as source for the material to be restored, so in that
 iteration of the project, neither DN or DN2 will be hard-coded in
 anymore.
