@@ -31,17 +31,26 @@ sub MAIN (Int $sutta-num? where { !$sutta-num.defined or 3 <= $sutta-num <= 13 }
 # reconstruct-cognate: expand the peyyala for one particular cognate and write it to disk unless unchanged
 sub reconstruct-cognate (Str $sut, Str $cog, Map $pe-map) {
     my $dn2-path = cognate-pathname('dn2', $cog);
-    my $sut-path = cognate-pathname($sut, $cog);
-    next unless $sut-path.IO.e and $dn2-path.IO.e;
     my $dn2segs;
     if %cache{$dn2-path}.defined {
 	$dn2segs = %cache{$dn2-path};
     }
     else {
+	unless $dn2-path.IO.e {
+	    note "$dn2-path not found"; 
+	    next;
+	}
 	$dn2segs = Map.new( from-json($dn2-path.IO.slurp).kv );	
+      # unless $dn2segs.kv { note "cannot parse $dn2-path" }
 	%cache{$dn2-path} = $dn2segs; 
     }
+    my $sut-path = cognate-pathname($sut, $cog);
+    unless $sut-path.IO.e {
+	note "$sut-path not found"; 
+	next;
+    }
     my $suttasegs = Map.new( from-json($sut-path.IO.slurp).kv );
+  # unless $suttasegs.kv { note "cannot parse $sut-path" }
     $*ERR.print( ' ', $cog.comb(2,1)[0] );
     my $json = jsonify( 
 	expand-peyyala($suttasegs, $dn2segs, $pe-map.Hash, pe-subst($sut, $cog)) 
