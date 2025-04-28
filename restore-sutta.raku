@@ -75,6 +75,11 @@ sub expand-peyyala (Map $suttacog, Map $dn2cog, Hash $reconst, Map $subst) {
 	next if $reconst{$seg-id}:exists;	# don't clobber segments that have already been mapped
  	next if $seg-id ~~ /\-/; 	# exclude hyphenated anchor segments that have been renumbered
 	$reconst{$seg-id} = $segment;
+      # turns out we need this next bit in both of these loops: refactor this later?
+	if $subst{$seg-id}:exists {
+	    my ($old, $new) = ($subst{$seg-id}).kv;
+	    $reconst{$seg-id} ~~ s/$old/$new/;
+	}
     }
     return $reconst;
 }

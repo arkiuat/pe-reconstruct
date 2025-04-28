@@ -6,5 +6,6 @@
 lib/.precomp
 
 # personal out-of-the-way dirs
-.ar
+reconstruct/*.json
 miscdev
+.ar

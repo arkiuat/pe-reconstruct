@@ -196,8 +196,4 @@ My for-real personal to-do that I should delete before advertising
 
 1. do the fourth pass over all the map & subst jsons to test the new procedure you wrote
 2. finish fixing up the pli/ms subst.jsons to support side-by-side & interlinear
-3. test if the test procedure that starts by cloning bilara-data & pe-reconstruct actually works as described
-4. finish the write-up of issues encountered that @snowbird expressed interest in 
-
-I think after 3. is done, you can advertise the repo on SC.D&D, and then start work on #4
-
+3. finish the write-up of issues encountered that @snowbird expressed interest in 
