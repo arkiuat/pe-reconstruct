@@ -53,8 +53,8 @@ and interlocutor addresses. For interlinear or side-by-side display
 of the Pāli text, the interlocutor changes etc. should also be made.
 These are provided for by the two pe-subst.json files for each
 sutta. Unlike the pe-map.json file, the pe-subst.json files for
-English may need to be remade from scratch for each particular
-version.
+English may need to be modified or remade from scratch for each
+particular version.
 
 How to run the demo
 -------------------
