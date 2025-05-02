@@ -1,0 +1,46 @@
+# the lines are all commented out to prevent accidental overwrites of work in progress
+# when you're sure you actually want to run the script, uncomment the lines, run it, and then reprotect
+
+# cp template-pe-map.json 8/dn8_pe-map.json
+# cp template-pe-subst.json 8/dn8_pe-subst.json
+# cp ~/a/bilara-data/translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json 8/dn8-anchors.json
+# 
+# cp template-pe-map.json 3/dn3_pe-map.json
+# cp template-pe-subst.json 3/dn3_pe-subst.json
+# cp ~/a/bilara-data/translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json 3/dn3-anchors.json
+# 
+# cp template-pe-map.json 6/dn6_pe-map.json
+# cp template-pe-subst.json 6/dn6_pe-subst.json
+# cp ~/a/bilara-data/translation/en/sujato/sutta/dn/dn6_translation-en-sujato.json 6/dn6-anchors.json
+# 
+# cp template-pe-map.json 7/dn7_pe-map.json
+# cp template-pe-subst.json 7/dn7_pe-subst.json
+# cp ~/a/bilara-data/translation/en/sujato/sutta/dn/dn7_translation-en-sujato.json 7/dn7-anchors.json
+# 
+# cp template-pe-map.json 9/dn9_pe-map.json
+# cp template-pe-subst.json 9/dn9_pe-subst.json
+# cp ~/a/bilara-data/translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json 9/dn9-anchors.json
+# 
+# cp template-pe-map.json 4/dn4_pe-map.json
+# cp template-pe-subst.json 4/dn4_pe-subst.json
+# cp ~/a/bilara-data/translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json 4/dn4-anchors.json
+# 
+# cp template-pe-map.json 5/dn5_pe-map.json
+# cp template-pe-subst.json 5/dn5_pe-subst.json
+# cp ~/a/bilara-data/translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json 5/dn5-anchors.json
+# 
+# cp template-pe-map.json 11/dn11_pe-map.json
+# cp template-pe-subst.json 11/dn11_pe-subst.json
+# cp ~/a/bilara-data/translation/en/sujato/sutta/dn/dn11_translation-en-sujato.json 11/dn11-anchors.json
+# 
+# cp template-pe-map.json 12/dn12_pe-map.json
+# cp template-pe-subst.json 12/dn12_pe-subst.json
+# cp ~/a/bilara-data/translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json 12/dn12-anchors.json
+# 
+# cp template-pe-map.json 10/dn10_pe-map.json
+# cp template-pe-subst.json 10/dn10_pe-subst.json
+# cp ~/a/bilara-data/translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json 10/dn10-anchors.json
+# 
+# cp template-pe-map.json 13/dn13_pe-map.json
+# cp template-pe-subst.json 13/dn13_pe-subst.json
+# cp ~/a/bilara-data/translation/en/sujato/sutta/dn/dn13_translation-en-sujato.json 13/dn13-anchors.json
