@@ -1,35 +1,47 @@
+# "anchor  1st immersion refrain",
+  "dn3:2.2.9": "This pertains to their conduct. ",
+
+# "anchor  2nd immersion refrain",
+  "dn3:2.2.11": "This pertains to their conduct. ",
+
+# "anchor  3rd immersion refrain",
+  "dn3:2.2.13": "This pertains to their conduct. ",
+
+# "anchor  4th immersion refrain, with addendum",
+  "dn3:2.2.15": "This pertains to their conduct. ",
+
+# "anchor-remap dn3:2.2.20  1st wisdom refrain",
+  "dn3:2.2.18": "This pertains to their knowledge. … ",
+
+# "8th wisdom refrain (map all DN8 wisdom refrains to dn3:2.2.20)",
+  "dn3:2.2.20": "This pertains to their knowledge. ",
+
 {
   "dn3:2.2.7": "and reflect … ",
   "dn3:2.2.8": "Quite secluded from sensual pleasures, secluded from unskillful qualities, they enter and remain in the first absorption … ",
 
 # "1st immersion refrain",
-  "dn3:2.2.9": "This pertains to their conduct. ",
 
   "dn3:2.2.10": "Furthermore, as the placing of the mind and keeping it connected are stilled, a mendicant enters and remains in the second absorption … ",
 
 # "2nd immersion refrain",
-  "dn3:2.2.11": "This pertains to their conduct. ",
 
   "dn3:2.2.12": "Furthermore, with the fading away of rapture, they enter and remain in the third absorption … ",
 
 # "3rd immersion refrain",
-  "dn3:2.2.13": "This pertains to their conduct. ",
 
   "dn3:2.2.14": "Furthermore, giving up pleasure and pain, and ending former happiness and sadness, they enter and remain in the fourth absorption … ",
 
-# "4th immersion refrain",
-  "dn3:2.2.15": "This pertains to their conduct. ",
+# "4th immersion refrain, with addendum",
   "dn3:2.2.16": "This is that conduct. ",
 
   "dn3:2.2.17": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge and vision. ",
 
 # "1st wisdom refrain",
-  "dn3:2.2.18": "This pertains to their knowledge. … ",
   
   "dn3:2.2.19": "They understand: ‘There is nothing further for this place.’ ",
 
-# "8th wisdom refrain (outside of ambit)",
-  "dn3:2.2.20": "This pertains to their knowledge. ",
+# "8th wisdom refrain (outside of ambit), with addendum",
   "dn3:2.2.21": "This is that knowledge. ",
 
   "dn3:2.2.22": "This mendicant is said to be ‘accomplished in knowledge’, and also ‘accomplished in conduct’, and also ‘accomplished in knowledge and conduct’. ",

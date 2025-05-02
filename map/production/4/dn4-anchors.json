@@ -1,3 +1,9 @@
+# "anchor-remap dn4:23.14  5th combined refrain",
+  "dn4:23.12": "This pertains to their wisdom. … ",
+
+# "anchor  12th combined refrain (map all 11 other refrains to this segment dn4:23.14)",
+  "dn4:23.14": "This pertains to their wisdom. ",
+
 {
   "dn4:23.4": "“It’s when a Realized One arises in the world, perfected, a fully awakened Buddha … ",
   "dn4:23.5": "That’s how a mendicant is accomplished in ethics. ",
@@ -9,11 +15,9 @@
   "dn4:23.11": "They project and extend the mind toward knowledge and vision … ",
 
 # "5th combined refrain (no immersion refrains are given, so they must be identical to this, the 1st wisdom refrain)",
-  "dn4:23.12": "This pertains to their wisdom. … ",
 
   "dn4:23.13": "They understand: ‘… there is nothing further for this place.’ ",
 
 # "12th combined refrain, and addendum (outside of ambit)",
-  "dn4:23.14": "This pertains to their wisdom. ",
   "dn4:23.15": "This, brahmin, is that wisdom.” "
 }
