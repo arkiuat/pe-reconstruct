@@ -89,7 +89,7 @@ is, side-by-side in the same parent directory.
 Command-line parameters
 -----------------------
 If no command-line arguments are supplied, the script reconstructs
-expanded version of all six cognates of all eleven suttas.
+expanded versions of all six cognates of all eleven suttas.
 
 If you want to generate the reconstructed cognate files for just
 one sutta, specify its number on the command line, e. g.:
@@ -107,7 +107,12 @@ line:
     ./restore-sutta 12 translation
 
 will generate only the expanded translation.json cognate file for
-*Lohiccasutta*.
+*Lohiccasutta*. Adding this feature was perhaps overkill, because
+the script already won't overwrite a cognate file that is identical
+to the one it just generated, so if you run it without args in this
+situation, it *will* generate all the cognate files and check them,
+but it will only write the ones that have actual changes from their
+sources.
 
 How to install Raku, JSON::Tiny, and zef
 ----------------------------------------
@@ -117,13 +122,13 @@ programming language, Rakudo is the current main implementation.)
 
 Directions for this may be found at the following URLs:
 
-    https://rakudo.org/downloads
-    https://raku.land/cpan:MORITZ/JSON::Tiny
+* https://rakudo.org/downloads
+* https://raku.land/cpan:MORITZ/JSON::Tiny
 
 You may want to install zef, the standard Raku module installer,
 before installing JSON::Tiny.
 
-    https://raku.land/zef:ugexe/zef
+* https://raku.land/zef:ugexe/zef
 
 ### Additional information ###
 
@@ -183,7 +188,7 @@ and DN2 (as text-source) hard-coded in. In the next phase I hope
 to extend this so that the same script will also handle
 elision-restorations in Majjhima Nikāya suttas as well, with different
 suttas used as source for the material to be restored, so in that
-iteration of the project, neither DN or DN2 will be hard-coded in
+iteration of the project, neither DN nor DN2 will be hard-coded in
 anymore.
 
 Of course, no peyyala can be restored by this system without
