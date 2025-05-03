@@ -1,0 +1,7 @@
+1. seriously consider whether it's better to apply substitutions before mappings, and rewrite the raku script if so
+2. finish the fourth pass over all the map & subst jsons while rewriting procedure (currently finishing step 5)
+3. finish fixing up the pli/ms subst.jsons to support side-by-side & interlinear
+4. finish the write-up that Bhante Khemaratana expressed interest in 
+
+I think after 3. is done, you can advertise the repo on SC.D&D, and then start work on #3
+
