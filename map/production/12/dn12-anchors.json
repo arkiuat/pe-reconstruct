@@ -1,26 +1,19 @@
-"There are two ways we could handle this:",
+"map all virtual refrain segments to the single segment dn12:63-77.6 and",
+"also subst out the now-redundant closing quote",
+"the three anchor segments are virtuals because this sutta has an allocated range",
+"so we're going to nix the hyphenated segment IDs",
 
-"1. map all the virtual and anchor-remap refrain segments to the single segment dn12:63-77.6 and ",
-"   also subst out the now-redundant closing quote, or",
-
-"2. map all the virtual and anchor-remap refrain segments to dn12:20-55.4 ",
-"   AND ALSO add a second virtual segment mapped to dn12:20-55.5 ",
-
-"At first I thought I liked the second solution better, but confusing extra segments in the pe-map is ",
-"probably worse than a few (okay) several extra (but perfectly standard) entries in the pe-subst ",
-
-
-# "1st combined refrain",
+# "virtual  1st combined refrain",
   "dn12:20-55.4": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. ",
   "dn12:20-55.5": "When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy. ",
 
-# "4th combined refrain",
+# "virtual-remap dn12:63-77.6  4th combined refrain",
   "dn12:56-62.5": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. … ",
 
-# "5th combined refrain",
+# "virtual-remap dn12:63-77.6  5th combined refrain",
   "dn12:63-77.3": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. … ",
 
-# "12th combined refrain (outside of ambit)",
+# "12th combined refrain (outside of ambit)  map all virtual refrain segments to this and subst out close-quote",
   "dn12:63-77.6": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy.” ",
 
 {
