@@ -1,66 +1,63 @@
-
-  "dn7:2.11": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’. … ",
-  "dn7:3.10": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’. … ",
-  "dn7:4.8": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’. … ",
-
-# "anchor (6 of 7 segments)  1st combined refrain",
-  "dn7:2.5": "When a mendicant knows and sees like this, would it be appropriate to say of them: ",
-  "dn7:2.6": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’?” ",
-  "dn7:2.7": "“It would, reverend.” ",
-  "dn7:2.8": "",
-  "dn7:2.9": "“But reverends, I know and see like this. ",
-  "dn7:2.10": "Nevertheless, I do not say: ",
-# "anchor-subst  ellipsis",
-  "dn7:2.11": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’. … ",
-
-# "anchor (6 of 7 segments)  4th combined refrain",
-  "dn7:3.4": "When a mendicant knows and sees like this, would it be appropriate to say of them: ",
-  "dn7:3.5": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’?” ",
-  "dn7:3.6": "“It would, reverend.” ",
-  "dn7:3.7": "",
-  "dn7:3.8": "“But reverends, I know and see like this. ",
-  "dn7:3.9": "Nevertheless, I do not say: ",
-# "anchor-subst  ellipsis",
-  "dn7:3.10": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’. … ",
-
-# "anchor (6 of 7 segments)  5th combined refrain",
-  "dn7:4.2": "When a mendicant knows and sees like this, would it be appropriate to say of them: ",
-  "dn7:4.3": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’?” ",
-  "dn7:4.4": "“It would, reverend.” ",
-  "dn7:4.5": "",
-  "dn7:4.6": "“But reverends, I know and see like this. ",
-  "dn7:4.7": "Nevertheless, I do not say: ",
-# "anchor-subst  ellipsis",
-  "dn7:4.8": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’. … ",
-
-# "anchor  (7 segments) 12th combined refrain (outside of ambit)",
-  "dn7:5.2": "When a mendicant knows and sees like this, would it be appropriate to say of them: ",
-  "dn7:5.3": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’?” ",
-  "dn7:5.4": "“It would not, reverend.” ",
-  "dn7:5.5": "",
-  "dn7:5.6": "“But reverends, I know and see like this. ",
-  "dn7:5.7": "Nevertheless, I do not say: ",
-  "dn7:5.8": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’.” ",
-
 {
   "dn7:2.1": "“Take the case when a Realized One arises in the world, perfected, a fully awakened Buddha … ",
   "dn7:2.2": "That’s how a mendicant is accomplished in ethics. … ",
   "dn7:2.3": "",
   "dn7:2.4": "They enter and remain in the first absorption … ",
 
-# "1st combined refrain",
+# "1st combined refrain ANCHOR dn7:2.5-10 & ANCHOR-SUBST dn7:2.11",
 
   "dn7:3.1": "They enter and remain in the second absorption … ",
   "dn7:3.2": "third absorption … ",
   "dn7:3.3": "fourth absorption. ",
 
-# "4th combined refrain",
+# "4th combined refrain ANCHOR dn7:3.4-9 & ANCHOR-SUBST dn7:3.10",
 
   "dn7:4.1": "They project and extend the mind toward knowledge and vision … ",
 
-# "5th combined refrain",
+# "5th combined refrain ANCHOR dn7:4.2-7 & ANCHOR-SUBST dn7:4.8",
 
   "dn7:5.1": "They understand: ‘… there is nothing further for this place.’ ",
 
-# "12th combined refrain (outside of ambit)"
+# "12th combined refrain (outside of ambit)",
+  "dn7:5.2": "When a mendicant knows and sees like this, would it be appropriate to say of them: ",
+  "dn7:5.3": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’?” ",
+  "dn7:5.4": "“It would not, reverend.” ",
+  "dn7:5.5": "",
+  "dn7:5.6": "“But reverends, I know and see like this. ",
+  "dn7:5.7": "Nevertheless, I do not say: ",
+  "dn7:5.8": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’.” "
 }
+
+
+# "1st combined refrain ANCHOR dn7:2.5-10 & ANCHOR-SUBST dn7:2.11",
+  "dn7:2.5": "When a mendicant knows and sees like this, would it be appropriate to say of them: ",
+  "dn7:2.6": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’?” ",
+  "dn7:2.7": "“It would, reverend.” ",
+  "dn7:2.8": "",
+  "dn7:2.9": "“But reverends, I know and see like this. ",
+  "dn7:2.10": "Nevertheless, I do not say: ",
+# "ANCHOR-SUBST  ellipsis",
+  "dn7:2.11": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’. … ",
+
+
+# "4th combined refrain ANCHOR dn7:3.4-9 & ANCHOR-SUBST dn7:3.10",
+  "dn7:3.4": "When a mendicant knows and sees like this, would it be appropriate to say of them: ",
+  "dn7:3.5": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’?” ",
+  "dn7:3.6": "“It would, reverend.” ",
+  "dn7:3.7": "",
+  "dn7:3.8": "“But reverends, I know and see like this. ",
+  "dn7:3.9": "Nevertheless, I do not say: ",
+# "ANCHOR-SUBST  ellipsis",
+  "dn7:3.10": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’. … ",
+
+
+# "5th combined refrain ANCHOR dn7:4.2-7 & ANCHOR-SUBST dn7:4.8",
+  "dn7:4.2": "When a mendicant knows and sees like this, would it be appropriate to say of them: ",
+  "dn7:4.3": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’?” ",
+  "dn7:4.4": "“It would, reverend.” ",
+  "dn7:4.5": "",
+  "dn7:4.6": "“But reverends, I know and see like this. ",
+  "dn7:4.7": "Nevertheless, I do not say: ",
+# "ANCHOR-SUBST  ellipsis",
+  "dn7:4.8": "‘The soul and the body are the same thing’ or ‘The soul and the body are different things’. … ",
+

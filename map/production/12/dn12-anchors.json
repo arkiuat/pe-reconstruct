@@ -1,42 +1,42 @@
-"map all virtual refrain segments to the single segment dn12:63-77.6 and",
-"also subst out the now-redundant closing quote",
-"the three anchor segments are virtuals because this sutta has an allocated range",
-"so we're going to nix the hyphenated segment IDs",
-
-# "virtual  1st combined refrain",
-  "dn12:20-55.4": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. ",
-  "dn12:20-55.5": "When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy. ",
-
-# "virtual-remap dn12:63-77.6  4th combined refrain",
-  "dn12:56-62.5": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. … ",
-
-# "virtual-remap dn12:63-77.6  5th combined refrain",
-  "dn12:63-77.3": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. … ",
-
-# "12th combined refrain (outside of ambit)  map all virtual refrain segments to this and subst out close-quote",
-  "dn12:63-77.6": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy.” ",
-
 {
   "dn12:20-55.1": "“It’s when a Realized One arises in the world, perfected, a fully awakened Buddha … ",
   "dn12:20-55.2": "That’s how a mendicant is accomplished in ethics. … ",
   "dn12:20-55.3": "They enter and remain in the first absorption … ",
 
-# "1st combined refrain",
+# "1st combined refrain ANCHOR dn12:20-55.4-5 ",
 
   "dn12:56-62.1": "",
   "dn12:56-62.2": "They enter and remain in the second absorption … ",
   "dn12:56-62.3": "third absorption … ",
   "dn12:56-62.4": "fourth absorption. ",
 
-# "4th combined refrain",
+# "4th combined refrain VIRTUAL-REMAP dn12:56-62.5 to dn12:63-77.6",
 
   "dn12:63-77.1": "",
   "dn12:63-77.2": "They project and extend the mind toward knowledge and vision … ",
 
-# "5th combined refrain",
+# "5th combined refrain VIRTUAL-REMAP dn12:63-77.3  to dn12:63-77.6",
 
   "dn12:63-77.4": "",
   "dn12:63-77.5": "They understand: ‘… there is nothing further for this place.’ ",
 
 # "12th combined refrain (outside of ambit)"
 }
+
+
+# "consider whether it might not be a good idea to do the substitutions *before* the mapping",
+# "that would make handling both dn2:40.1 and dn2:43.1 a little easier, as well as these 3+ ellipsis deletions",
+
+# "1st combined refrain VIRTUAL-ANCHOR dn12:20-55.4-5 ",
+  "dn12:20-55.4": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. ",
+  "dn12:20-55.5": "When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy. ",
+
+# "4th combined refrain VIRTUAL-REMAP dn12:56-62.5 to dn12:63-77.6",
+  "dn12:56-62.5": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. … ",
+
+# "5th combined refrain VIRTUAL-REMAP dn12:63-77.3  to dn12:63-77.6",
+  "dn12:63-77.3": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. … ",
+
+# "12th combined refrain ANCHOR-SUBST dn12:63-77.6 (remap-target for 6th thru 11th combined refrains)  AND subst out close-quote",
+  "dn12:63-77.6": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy.” ",
+
