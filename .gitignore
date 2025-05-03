@@ -8,3 +8,6 @@ lib/.precomp
 # personal out-of-the-way dirs
 reconstruct/*.json
 miscdev
+
+# Apple strews these about
+.DS_store
