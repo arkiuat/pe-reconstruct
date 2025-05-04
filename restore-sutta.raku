@@ -151,16 +151,22 @@ sub seg-id-cmp (Str $id1, Str $id2) {
 
 # TODO
 #
-# 1. Add a ton of error-checking! Try to anticipate the weird situations 
+# 1. Rewrite so that substitutions are done before mappings. I believe
+#    these changes can be completely confined to the current version
+#    of sub expand-peyyala BUT we'll also have to rewrite all the current
+#    *_pe-subst.json files (they're short though). Also, might be able
+#    to automate the conversion of the pe-subst.json files.
+#
+# 2. Add a ton of error-checking! Try to anticipate the weird situations 
 #    users might get into. Nothing fancy, just die with an informative
 #    error message.
 #
-# 2. The current {$s}_pe-subst-pli-ms.json files (to enable reasonable
+# 3. The current {$s}_pe-subst-pli-ms.json files (to enable reasonable
 #    side-by-side and interlinear display) are still just stubs copied
 #    from the English ones; need real ones. Making this lower priority
 #    for now because it's a data issue, not a programming issue.
 #
-# 3. Might want jsonify's parameter to be a Map, since we don't want it
+# 4. Might want jsonify's parameter to be a Map, since we don't want it
 #    to be modified, but that might mean we need to cast Hash to Map
 #    when calling it on a Hash (which is the only way we call it so far,
 #    I think)
