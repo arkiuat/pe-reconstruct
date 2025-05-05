@@ -73,24 +73,29 @@ sub reconstruct-cognate (Str $sut, Str $cog, Map $pe-map) {
 # expand-peyyala: transform pe-map into the reconstructed version for one particular cognate
 sub expand-peyyala (Map $suttacog, Map $dn2cog, Hash $reconst, Map $subst) {
     for $reconst.kv -> $virt, $real { 
-	$reconst{$virt} = $dn2cog{$real}:exists ?? $dn2cog{$real} !! $suttacog{$real};
-	if $subst{$virt}:exists {
-	    my ($old, $new) = ($subst{$virt}).kv;
-	    $reconst{$virt} ~~ s/$old/$new/;
-	}
+	my $source = $dn2cog{$real}:exists ?? $dn2cog !! $suttacog;
+	$reconst{$virt} = correct-text($source, $subst, $real);
     }
   # merge unelided segments from $suttacog into the result
-    for $suttacog.kv -> $seg-id, $segment {
+    for $suttacog.keys -> $seg-id {
 	next if $reconst{$seg-id}:exists;	# don't clobber segments that have already been mapped
  	next if $seg-id ~~ /\-/; 	# exclude hyphenated anchor segments that have been renumbered
-	$reconst{$seg-id} = $segment;
-      # turns out we need this next bit in both of these loops: refactor this later?
-	if $subst{$seg-id}:exists {
-	    my ($old, $new) = ($subst{$seg-id}).kv;
-	    $reconst{$seg-id} ~~ s/$old/$new/;
-	}
+	$reconst{$seg-id} = correct-text($suttacog, $subst, $seg-id);
     }
     return $reconst;
+}
+
+# correct-text: given a map of segment-IDs to text and a parsed pe-subst.json file,
+# retrieves the text associated with that seg-id in that map, 
+# makes any text replacements specified by the pe-subst, and returns the result
+# 
+sub correct-text (Map $cog, Map $subst, Str $seg-id) {
+    my $text = $cog{$seg-id};
+    if $subst{$seg-id}:exists {
+	my ($old, $new) = ($subst{$seg-id}).kv;
+	$text ~~ s/$old/$new/;
+    }
+    return $text;
 }
 
 # pe-subst: read in the substitutions mapping and return it, if any, otherwise return an empty map
@@ -151,22 +156,16 @@ sub seg-id-cmp (Str $id1, Str $id2) {
 
 # TODO
 #
-# 1. Rewrite so that substitutions are done before mappings. I believe
-#    these changes can be completely confined to the current version
-#    of sub expand-peyyala BUT we'll also have to rewrite all the current
-#    *_pe-subst.json files (they're short though). Also, might be able
-#    to automate the conversion of the pe-subst.json files.
-#
-# 2. Add a ton of error-checking! Try to anticipate the weird situations 
+# 1. Add a ton of error-checking! Try to anticipate the weird situations 
 #    users might get into. Nothing fancy, just die with an informative
 #    error message.
 #
-# 3. The current {$s}_pe-subst-pli-ms.json files (to enable reasonable
+# 2. The current {$s}_pe-subst-pli-ms.json files (to enable reasonable
 #    side-by-side and interlinear display) are still just stubs copied
 #    from the English ones; need real ones. Making this lower priority
 #    for now because it's a data issue, not a programming issue.
 #
-# 4. Might want jsonify's parameter to be a Map, since we don't want it
+# 3. Might want jsonify's parameter to be a Map, since we don't want it
 #    to be modified, but that might mean we need to cast Hash to Map
 #    when calling it on a Hash (which is the only way we call it so far,
 #    I think)
