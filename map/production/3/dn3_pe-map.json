@@ -5,7 +5,11 @@
 
   "dn2:41.1": "A householder hears that teaching, or a householder’s child, or someone reborn in a good family. ",
   "dn2:41.2": "They gain faith in the Realized One ",
+  
+  # "ANCHOR-REMAP",
+  "dn3:2.2.7": "and reflect … ",
   "dn2:41.3": "and reflect: ",
+
   "dn2:41.4": "‘Life at home is cramped and dirty, life gone forth is wide open. ",
   "dn2:41.5": "It’s not easy for someone living at home to lead the spiritual life utterly full and pure, like a polished shell. ",
   "dn2:41.6": "Why don’t I shave off my hair and beard, dress in ocher robes, and go forth from the lay life to homelessness?’ ",
@@ -228,45 +232,70 @@
   "dn2:74.4": "Seeing that the hindrances have been given up in them, joy springs up. Being joyful, rapture springs up. When the mind is full of rapture, the body becomes tranquil. When the body is tranquil, they feel bliss. And when blissful, the mind becomes immersed. ",
 
   "dn2:75.0": "4.3.2.5. First Absorption ",
+
+  # "ANCHOR-REMAP",
+  "dn3:2.2.8": "Quite secluded from sensual pleasures, secluded from unskillful qualities, they enter and remain in the first absorption … ",
   "dn2:75.1": "Quite secluded from sensual pleasures, secluded from unskillful qualities, they enter and remain in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. ",
+
   "dn2:75.2": "They drench, steep, fill, and spread their body with rapture and bliss born of seclusion. There’s no part of the body that’s not spread with rapture and bliss born of seclusion. ",
 
   "dn2:76.1": "It’s like when a deft bathroom attendant or their apprentice pours bath powder into a bronze dish, sprinkling it little by little with water. They knead it until the ball of bath powder is soaked and saturated with moisture, spread through inside and out; yet no moisture oozes out. ",
   "dn2:76.2": "In the same way, a mendicant drenches, steeps, fills, and spreads their body with rapture and bliss born of seclusion. There’s no part of the body that’s not spread with rapture and bliss born of seclusion. ",
+  "dn3:2.2.9": "This pertains to their conduct. ",
 
-  # dn2:76.3 - 1st immersion refrain - refrain replacement goes above
+# "dn2:76.3 1st immersion refrain ANCHOR  dn3:2.2.9",
 
   "dn2:77.0": "4.3.2.6. Second Absorption ",
+
+  # "ANCHOR-REMAP",
+  "dn3:2.2.10": "Furthermore, as the placing of the mind and keeping it connected are stilled, a mendicant enters and remains in the second absorption … ",
   "dn2:77.1": "Furthermore, as the placing of the mind and keeping it connected are stilled, a mendicant enters and remains in the second absorption, which has the rapture and bliss born of immersion, with internal clarity and mind at one, without applying the mind and keeping it connected. ",
+
   "dn2:77.2": "They drench, steep, fill, and spread their body with rapture and bliss born of immersion. There’s no part of the body that’s not spread with rapture and bliss born of immersion. ",
 
   "dn2:78.1": "It’s like a deep lake fed by spring water. There’s no inlet to the east, west, north, or south, and the heavens would not properly bestow showers from time to time. ",
   "dn2:78.2": "But the stream of cool water welling up in the lake drenches, steeps, fills, and spreads throughout the lake. There’s no part of the lake that’s not spread through with cool water. ",
   "dn2:78.3": "In the same way, a mendicant drenches, steeps, fills, and spreads their body with rapture and bliss born of immersion. There’s no part of the body that’s not spread with rapture and bliss born of immersion. ",
+  "dn3:2.2.11": "This pertains to their conduct. ",
 
-  # dn2:78.4 - 2nd immersion refrain - refrain replacement goes above
+# "dn2:78.4 2nd immersion refrain ANCHOR dn3:2.2.11",
 
   "dn2:79.0": "4.3.2.7. Third Absorption ",
+
+  # "ANCHOR-REMAP",
+  "dn3:2.2.12": "Furthermore, with the fading away of rapture, they enter and remain in the third absorption … ",
   "dn2:79.1": "Furthermore, with the fading away of rapture, a mendicant enters and remains in the third absorption, where they meditate with equanimity, mindful and aware, personally experiencing the bliss of which the noble ones declare, ‘Equanimous and mindful, one meditates in bliss.’ ",
+
   "dn2:79.2": "They drench, steep, fill, and spread their body with bliss free of rapture. There’s no part of the body that’s not spread with bliss free of rapture. ",
 
   "dn2:80.1": "It’s like a pool with blue water lilies, or pink or white lotuses. Some of them sprout and grow in the water without rising above it, thriving underwater. From the tip to the root they’re drenched, steeped, filled, and soaked with cool water. There’s no part of them that’s not soaked with cool water. ",
   "dn2:80.2": "In the same way, a mendicant drenches, steeps, fills, and spreads their body with bliss free of rapture. There’s no part of the body that’s not spread with bliss free of rapture. ",
+  "dn3:2.2.13": "This pertains to their conduct. ",
 
-  # dn2:80.3 - 3rd immersion refrain - refrain replacement goes above
+# "dn2:80.3 3rd immersion refrain ANCHOR dn3:2.2.13",
 
   "dn2:81.0": "4.3.2.8. Fourth Absorption ",
+
+  # "ANCHOR-REMAP",
+  "dn3:2.2.14": "Furthermore, giving up pleasure and pain, and ending former happiness and sadness, they enter and remain in the fourth absorption … ",
   "dn2:81.1": "Furthermore, giving up pleasure and pain, and ending former happiness and sadness, a mendicant enters and remains in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness. ",
+
   "dn2:81.2": "They sit spreading their body through with pure bright mind. There’s no part of the body that’s not spread with pure bright mind. ",
 
   "dn2:82.1": "It’s like someone sitting wrapped from head to foot with white cloth. There’s no part of the body that’s not spread over with white cloth. ",
   "dn2:82.2": "In the same way, they sit spreading their body through with pure bright mind. There’s no part of the body that’s not spread with pure bright mind. ",
+  "dn3:2.2.15": "This pertains to their conduct. ",
 
-  # dn2:82.3 - 4th immersion refrain - refrain replacement goes above
+# "dn2:82.3 4th immersion refrain ANCHOR dn3:2.2.15, with addendum, reset num to 2.2.16.1.1",
+  "dn3:2.2.16": "This is that conduct. ",
 
   "dn2:83.0.1": "4.3.3. The Eight Knowledges ",
   "dn2:83.0.2": "4.3.3.1. Knowledge and Vision ",
+
+# "ANCHOR-REMAP",
+  "dn3:2.2.17": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge and vision. ",
   "dn2:83.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge and vision. ",
+
   "dn2:83.2": "They understand: ",
   "dn2:83.3": "‘This body of mine is formed. It’s made up of the four principal states, produced by mother and father, built up from rice and porridge, liable to impermanence, to wearing away and erosion, to breaking up and destruction. ",
   "dn2:83.4": "And this consciousness of mine is attached to it, tied to it.’ ",
@@ -280,8 +309,9 @@
   "dn2:84.7": "",
   "dn2:84.8": "",
   "dn2:84.9": "",
+  "dn3:2.2.18": "This pertains to their knowledge. … ",
   
-  # dn2:84.10 - 1st knowledges refrain / 5th combined refrain - refrain replacement goes above
+# "dn2:84.10 1st wisdom refrain ANCHOR-REMAP dn3:2.2.18 to dn3:2.2.20, reset num 2.2.18.1.1",
 
   "dn2:85.0": "4.3.3.2. Mind-Made Body ",
   "dn2:85.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward the creation of a mind-made body. ",
@@ -298,8 +328,9 @@
   "dn2:86.9": "‘This is the snake, this is the slough. The snake and the slough are different things. The snake has been drawn out from the slough.’ ",
   "dn2:86.10": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward the creation of a mind-made body. ",
   "dn2:86.11": "From this body they create another body—formed, mind-made, whole in its major and minor limbs, not deficient in any faculty. ",
+  "dn3:2.2.20": "This pertains to their knowledge. ",
 
-  # dn2:86.12 - 2nd knowledges refrain / 6th combined refrain - refrain replacement goes above
+  # "dn2:86.12  VIRTUAL-REMAP  2nd knowledges refrain",
 
   "dn2:87.0": "4.3.3.3. Psychic Powers ",
   "dn2:87.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward psychic power. ",
@@ -310,8 +341,9 @@
   "dn2:88.3": "Or suppose a deft goldsmith or their apprentice had some well-prepared gold. They could produce any kind of gold item that they like. ",
   "dn2:88.4": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward psychic power. ",
   "dn2:88.5": "",
+  "dn3:2.2.20": "This pertains to their knowledge. ",
 
-  # dn2:88.6 - 3rd knowledges refrain / 7th combined refrain - refrain replacement goes above
+  # "dn2:88.6  VIRTUAL-REMAP  3rd knowledges refrain",
 
   "dn2:89.0": "4.3.3.4. Clairaudience ",
   "dn2:89.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward clairaudience. ",
@@ -320,8 +352,9 @@
   "dn2:90.1": "Suppose there was a person traveling along the road. They’d hear the sound of drums, clay drums, horns, kettledrums, and tom-toms. They’d think: ‘That’s the sound of drums,’ and ‘that’s the sound of clay drums,’ and ‘that’s the sound of horns, kettledrums, and tom-toms.’ ",
   "dn2:90.2": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward clairaudience. ",
   "dn2:90.3": "With clairaudience that is purified and superhuman, they hear both kinds of sounds, human and heavenly, whether near or far. ",
+  "dn3:2.2.20": "This pertains to their knowledge. ",
 
-  # dn2:90.4 - 4th knowledges refrain / 8th combined refrain - refrain replacement goes above
+  # "dn2:90.4  VIRTUAL-REMAP  4th knowledges refrain",
 
   "dn2:91.0": "4.3.3.5. Comprehending the Minds of Others ",
   "dn2:91.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward comprehending the minds of others. ",
@@ -346,8 +379,9 @@
   "dn2:92.1": "Suppose there was a woman or man who was young, youthful, and fond of adornments, and they check their own reflection in a clean bright mirror or a clear bowl of water. If they had a spot they’d know ‘I have a spot,’ and if they had no spots they’d know ‘I have no spots.’ ",
   "dn2:92.2": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward comprehending the minds of others. ",
   "dn2:92.3": "They understand the minds of other beings and individuals, having comprehended them with their own mind. ",
+  "dn3:2.2.20": "This pertains to their knowledge. ",
   
-  # dn2:92.20 - 5th knowledges refrain / 9th combined refrain - refrain replacement goes above
+  # "dn2:92.20 VIRTUAL-REMAP  - 5th knowledges refrain",
 
   "dn2:93.0": "4.3.3.6. Recollection of Past Lives ",
   "dn2:93.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward recollection of past lives. ",
@@ -356,8 +390,9 @@
   "dn2:94.1": "Suppose a person was to leave their home village and go to another village. From that village they’d go to yet another village. And from that village they’d return to their home village. They’d think: ‘I went from my home village to another village. There I stood like this, sat like that, spoke like this, or kept silent like that. From that village I went to yet another village. There too I stood like this, sat like that, spoke like this, or kept silent like that. And from that village I returned to my home village.’ ",
   "dn2:94.2": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward recollection of past lives. ",
   "dn2:94.3": "",
+  "dn3:2.2.20": "This pertains to their knowledge. ",
 
-  # dn2:94.4 - 6th knowledges refrain / 10th combined refrain - refrain replacement goes above
+  # "dn2:94.4 VIRTUAL-REMAP  - 6th knowledges refrain",
 
   "dn2:95.0": "4.3.3.7. Clairvoyance ",
   "dn2:95.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge of the death and rebirth of sentient beings. ",
@@ -366,8 +401,9 @@
   "dn2:96.1": "Suppose there was a stilt longhouse at the central square. A person with clear eyes standing there might see people entering and leaving a house, walking along the streets and paths, and sitting at the central square. They’d think: ‘These are people entering and leaving a house, walking along the streets and paths, and sitting at the central square.’ ",
   "dn2:96.2": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge of the death and rebirth of sentient beings. ",
   "dn2:96.3": "",
+  "dn3:2.2.20": "This pertains to their knowledge. ",
 
-  # dn2:96.4 - 7th knowledges refrain / 11th combined refrain - refrain replacement goes above
+  # "dn2:96.4 VIRTUAL-REMAP  - 7th knowledges refrain", 
   
   "dn2:97.0": "4.3.3.8. Ending of Defilements ",
   "dn2:97.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge of the ending of defilements. ",
@@ -375,9 +411,12 @@
   "dn2:97.3": "They truly understand: ‘These are defilements’ … ‘This is the origin of defilements’ … ‘This is the cessation of defilements’ … ‘This is the practice that leads to the cessation of defilements’. ",
   "dn2:97.4": "Knowing and seeing like this, their mind is freed from the defilements of sensuality, desire to be reborn, and ignorance. ",
   "dn2:97.5": "When they’re freed, they know they’re freed. ",
+
+  # "ANCHOR-REMAP",
+  "dn3:2.2.19": "They understand: ‘There is nothing further for this place.’ ",
   "dn2:97.6": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’ ",
 
-  # whenever dn2:97.6 gets restored, ensure that these next two are assigned virtual segment numbers also.
+  # "these next two get dn3:2.2.19.1-2",
 
   "dn2:98.1": "Suppose that in a mountain glen there was a lake that was transparent, clear, and unclouded. A person with clear eyes standing on the bank would see the clams and mussels, and pebbles and gravel, and schools of fish swimming about or staying still. They’d think: ‘This lake is transparent, clear, and unclouded. And here are the clams and mussels, and pebbles and gravel, and schools of fish swimming about or staying still.’ ",
   "dn2:98.2": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge of the ending of defilements. "
