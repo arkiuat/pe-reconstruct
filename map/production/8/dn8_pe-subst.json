@@ -1,12 +1,18 @@
 {
-  "mapped-to-dn2:40.1" : {
+  "dn2:40.1" : {
     "Consider": "x"
   },
   "" : {
     "4.3": "z"
   },
-  "mapped-to-dn2:43.1" : {
+  "dn2:43.1" : {
     "great king": "y"
+  },
+  "dn8:19.10": {
+    " …": ""
+  },
+  "dn8:20.2": {
+    "they project it and extend it toward knowledge and vision … ": ""
   },
   "" : {
     " …": ""

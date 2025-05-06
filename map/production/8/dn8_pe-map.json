@@ -1,5 +1,8 @@
 {
+  # "ANCHOR-REMAP",
+  "dn8:18.3": "“It’s when a Realized One arises in the world, perfected, a fully awakened Buddha … ",
   "dn2:40.1": "“Consider when a Realized One arises in the world, perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those who wish to train, teacher of gods and humans, awakened, blessed. ",
+
   "dn2:40.2": "He has realized with his own insight this world—with its gods, Māras, and divinities, this population with its ascetics and brahmins, gods and humans—and he makes it known to others. ",
   "dn2:40.3": "He proclaims a teaching that is good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And he reveals a spiritual practice that’s entirely full and pure. ",
 
@@ -11,26 +14,54 @@
   "dn2:41.6": "Why don’t I shave off my hair and beard, dress in ocher robes, and go forth from the lay life to homelessness?’ ",
   "dn2:41.7": "After some time they give up a large or small fortune, and a large or small family circle. They shave off hair and beard, dress in ocher robes, and go forth from the lay life to homelessness. ",
 
+  # "ANCHOR-REMAP",
+  "dn8:18.4": "Seeing danger in the slightest fault, a mendicant keeps the rules they’ve undertaken. They act skillfully by body and speech. They’re purified in livelihood and accomplished in ethical conduct. They guard the sense doors, have mindfulness and situational awareness, and are content. ",
   "dn2:42.1": "Once they’ve gone forth, they live restrained in the monastic code, conducting themselves well and resorting for alms in suitable places. Seeing danger in the slightest fault, they keep the rules they’ve undertaken. They act skillfully by body and speech. They’re purified in livelihood and accomplished in ethical conduct. They guard the sense doors, have mindfulness and situational awareness, and are content. ",
 
   "dn2:43.0.1": "4.3.1. Ethics ",
   "dn2:43.0.2": "4.3.1.1. The Shorter Section on Ethics ",
+
+  # "ANCHOR delete both of these next two; dn8:18.5 is what we want in the final",
+  "dn8:18.5": "And how is a mendicant accomplished in ethics? ",
   "dn2:43.1": "And how, great king, is a mendicant accomplished in ethics? ",
+
+  # "ANCHOR delete both of these next two",
+  "dn8:18.6": "It’s when a mendicant gives up killing living creatures. They renounce the rod and the sword. They’re scrupulous and kind, living full of sympathy for all living beings. ",
   "dn2:43.2": "It’s when a mendicant gives up killing living creatures, renouncing the rod and the sword. They’re scrupulous and kind, living full of sympathy for all living beings. ",
-  "dn2:43.3": "This pertains to their ethics. ",
+
+  "dn8:18.7": "This pertains to their accomplishment in ethics. … ",
+# "!!! dn2:43.3  1st ethics ANCHOR-REMAP to dn8:19.4, i. e. dn8:18.7: dn8:19.4 with quotes",
+
   "dn2:43.4": "They give up stealing. They take only what’s given, and expect only what’s given. They keep themselves clean by not thieving. ",
-  "dn2:43.5": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:43.5  2nd ethics VIRTUAL-REMAP to dn8:19.4",
+
   "dn2:43.6": "They give up unchastity. They are celibate, set apart, avoiding the vulgar act of sex. ",
-  "dn2:43.7": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+  
+# "dn2:43.7  3rd ethics VIRTUAL-REMAP to dn8:19.4",
 
   "dn2:44.1": "They give up lying. They speak the truth and stick to the truth. They’re honest and dependable, and don’t trick the world with their words. ",
-  "dn2:44.2": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:44.2  4th ethics VIRTUAL-REMAP to dn8:19.4",
+
   "dn2:44.3": "They give up divisive speech. They don’t repeat in one place what they heard in another so as to divide people against each other. Instead, they reconcile those who are divided, supporting unity, delighting in harmony, loving harmony, speaking words that promote harmony. ",
-  "dn2:44.4": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:44.4  5th ethics VIRTUAL-REMAP to dn8:19.4",
+
   "dn2:44.5": "They give up harsh speech. They speak in a way that’s mellow, pleasing to the ear, lovely, going to the heart, polite, likable and agreeable to the people. ",
-  "dn2:44.6": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:44.6  6th ethics VIRTUAL-REMAP to dn8:19.4",
+
   "dn2:44.7": "They give up talking nonsense. Their words are timely, true, and meaningful, in line with the teaching and training. They say things at the right time which are valuable, reasonable, succinct, and beneficial. ",
-  "dn2:44.8": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:44.8  7th ethics VIRTUAL-REMAP to dn8:19.4",
+
 
   "dn2:45.1": "They refrain from injuring plants and seeds. ",
   "dn2:45.2": "They eat in one part of the day, abstaining from eating at night and food at the wrong time. ",
@@ -51,99 +82,179 @@
   "dn2:45.17": "falsifying weights, metals, or measures; ",
   "dn2:45.18": "bribery, fraud, cheating, and duplicity; ",
   "dn2:45.19": "mutilation, murder, abduction, banditry, plunder, and violence. ",
-  "dn2:45.20": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:45.20  8th ethics VIRTUAL-REMAP to dn8:19.4",
+
   "dn2:45.21": "The shorter section on ethics is finished. ",
 
   "dn2:46.0": "4.3.1.2. The Middle Section on Ethics ",
   "dn2:46.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in injuring plants and seeds. ",
   "dn2:46.2": "These include plants propagated from roots, stems, cuttings, or joints; and those from regular seeds as the fifth. They refrain from such injury to plants and seeds. ",
-  "dn2:46.3": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+  
+# "dn2:46.3  9th ethics VIRTUAL-REMAP to dn8:19.4",
+
 
   "dn2:47.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in storing up goods for their own use. ",
   "dn2:47.2": "This includes such things as food, drink, clothes, vehicles, bedding, fragrance, and things of the flesh. ",
   "dn2:47.3": "They refrain from storing up such goods. ",
-  "dn2:47.4": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:47.4  10th ethics VIRTUAL-REMAP to dn8:19.4",
+
 
   "dn2:48.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in seeing shows. ",
   "dn2:48.2": "This includes such things as dancing, singing, music, performances, and storytelling; clapping, gongs, and kettledrums; beauty pageants; pole-acrobatics and bone-washing displays of the corpse-workers; battles of elephants, horses, buffaloes, bulls, goats, rams, chickens, and quails; staff-fights, boxing, and wrestling; combat, roll calls of the armed forces, battle-formations, and regimental reviews. ",
   "dn2:48.3": "They refrain from such shows. ",
-  "dn2:48.4": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:48.4  11th ethics VIRTUAL-REMAP to dn8:19.4",
+
 
   "dn2:49.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in gambling that causes negligence. ",
   "dn2:49.2": "This includes such things as checkers with eight or ten rows, checkers in the air, hopscotch, spillikins, board-games, tip-cat, drawing straws, dice, leaf-flutes, toy plows, somersaults, pinwheels, toy measures, toy carts, toy bows, guessing words from syllables, guessing another’s thoughts, and imitating musical instruments. ",
   "dn2:49.3": "They refrain from such gambling. ",
-  "dn2:49.4": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:49.4  12th ethics VIRTUAL-REMAP to dn8:19.4",
+
 
   "dn2:50.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still make use of high and luxurious bedding. ",
   "dn2:50.2": "This includes such things as sofas, couches, woolen covers—shag-piled, colorful, white, embroidered with flowers, quilted, embroidered with animals, double-or single-fringed—and silk covers studded with gems, as well as silken sheets, woven carpets, rugs for elephants, horses, or chariots, antelope hide rugs, and spreads of fine deer hide, with a canopy above and red cushions at both ends. ",
   "dn2:50.3": "They refrain from such bedding. ",
-  "dn2:50.4": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:50.4  13th ethics VIRTUAL-REMAP to dn8:19.4",
+
 
   "dn2:51.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in beautifying and adorning themselves with garlands, fragrance, and makeup. ",
   "dn2:51.2": "This includes such things as applying beauty products by anointing, massaging, bathing, and rubbing; mirrors, ointments, garlands, fragrances, and makeup; face-powder, foundation, bracelets, headbands, fancy walking-sticks or containers, rapiers, parasols, fancy sandals, turbans, jewelry, chowries, and long-fringed white robes. ",
   "dn2:51.3": "They refrain from such beautification and adornment. ",
-  "dn2:51.4": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:51.4  14th ethics VIRTUAL-REMAP to dn8:19.4",
+
 
   "dn2:52.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in low talk. ",
   "dn2:52.2": "This includes such topics as talk about kings, bandits, and ministers; talk about armies, threats, and wars; talk about food, drink, clothes, and beds; talk about garlands and fragrances; talk about family, vehicles, villages, towns, cities, and countries; talk about women and heroes; street talk and well talk; talk about the departed; motley talk; tales of land and sea; and talk about being reborn in this or that place. ",
   "dn2:52.3": "They refrain from such low talk. ",
-  "dn2:52.4": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:52.4  15th ethics VIRTUAL-REMAP to dn8:19.4",
+
 
   "dn2:53.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in arguments. ",
   "dn2:53.2": "They say such things as: ‘You don’t understand this teaching and training. I understand this teaching and training. What, you understand this teaching and training? You’re practicing wrong. I’m practicing right. I stay on topic, you don’t. You said last what you should have said first. You said first what you should have said last. What you’ve thought so much about has been disproved. Your doctrine is refuted. Go on, save your doctrine! You’re trapped; get yourself out of this—if you can!’ ",
   "dn2:53.3": "They refrain from such argumentative talk. ",
-  "dn2:53.4": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:53.4  16th ethics VIRTUAL-REMAP to dn8:19.4",
+
 
   "dn2:54.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in running errands and messages. ",
   "dn2:54.2": "This includes running errands for rulers, ministers, aristocrats, brahmins, householders, or princes who say: ‘Go here, go there. Take this, bring that from there.’ ",
   "dn2:54.3": "They refrain from such errands. ",
-  "dn2:54.4": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:54.4  17th ethics VIRTUAL-REMAP to dn8:19.4",
+
 
   "dn2:55.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in deceit, flattery, hinting, and belittling, and using material things to chase after other material things. They refrain from such deceit and flattery. ",
-  "dn2:55.2": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:55.2  18th ethics VIRTUAL-REMAP to dn8:19.4",
+
   "dn2:55.3": "The middle section on ethics is finished. ",
 
   "dn2:56.0": "4.3.1.3. The Long Section on Ethics ",
   "dn2:56.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. ",
   "dn2:56.2": "This includes such fields as limb-reading, omenology, divining celestial portents, interpreting dreams, divining bodily marks, divining holes in cloth gnawed by mice, fire offerings, ladle offerings, offerings of husks, rice powder, rice, ghee, or oil; offerings from the mouth, blood sacrifices, palmistry; geomancy for building sites, fields, and cemeteries; exorcisms, earth magic, snake charming, poisons; the lore of the scorpion, the rat, the bird, and the crow; prophesying lifespan, chanting for protection, and divining omens from wild animals. ",
   "dn2:56.3": "They refrain from such low lore, such wrong livelihood. ",
-  "dn2:56.4": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:56.4  19th ethics VIRTUAL-REMAP to dn8:19.4",
+
 
   "dn2:57.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. ",
   "dn2:57.2": "This includes reading the marks of gems, cloth, clubs, swords, spears, arrows, bows, weapons, women, men, boys, girls, male and female bondservants, elephants, horses, buffaloes, bulls, cows, goats, rams, chickens, quails, monitor lizards, rabbits, tortoises, or deer. ",
   "dn2:57.3": "They refrain from such low lore, such wrong livelihood. ",
-  "dn2:57.4": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+  
+# "dn2:57.4  20th ethics VIRTUAL-REMAP to dn8:19.4",
+
 
   "dn2:58.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. ",
   "dn2:58.2": "This includes making predictions that the king will march forth or march back; or that our king will attack and the enemy king will retreat, or vice versa; or that our king will triumph and the enemy king will be defeated, or vice versa; and so there will be victory for one and defeat for the other. ",
   "dn2:58.3": "They refrain from such low lore, such wrong livelihood. ",
-  "dn2:58.4": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:58.4  21st ethics VIRTUAL-REMAP to dn8:19.4",
+
 
   "dn2:59.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. ",
   "dn2:59.2": "This includes making predictions that there will be an eclipse of the moon, or sun, or stars; that the sun, moon, and stars will be in conjunction or in opposition; that there will be a meteor shower, a fiery sky, an earthquake, or thunder in the heavens; that there will be a rising, a setting, a darkening, a brightening of the moon, sun, and stars. And it also includes making predictions about the results of all such phenomena. ",
   "dn2:59.3": "They refrain from such low lore, such wrong livelihood. ",
-  "dn2:59.4": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:59.4  22nd ethics VIRTUAL-REMAP to dn8:19.4",
+
 
   "dn2:60.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. ",
   "dn2:60.2": "This includes predicting whether there will be plenty of rain or drought; plenty to eat or famine; an abundant harvest or a bad harvest; security or peril; sickness or health. It also includes such occupations as arithmetic, accounting, calculating, poetry, and cosmology. ",
   "dn2:60.3": "They refrain from such low lore, such wrong livelihood. ",
-  "dn2:60.4": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "dn2:60.4  23rd ethics VIRTUAL-REMAP to dn8:19.4",
+
 
   "dn2:61.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. ",
   "dn2:61.2": "This includes making arrangements for giving and taking in marriage; for engagement and divorce; and for scattering rice inwards or outwards at the wedding ceremony. It also includes casting spells for good or bad luck, treating impacted fetuses, binding the tongue, or locking the jaws; charms for the hands and ears; questioning a mirror, a girl, or a god as an oracle; worshiping the sun, worshiping the Great One, breathing fire, and invoking Siri, the goddess of luck. ",
   "dn2:61.3": "They refrain from such low lore, such wrong livelihood. ",
-  "dn2:61.4": "This pertains to their ethics. ",
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
 
+# "dn2:61.4  24th ethics VIRTUAL-REMAP to dn8:19.4",
+
+  # "ANCHOR-REMAP",
+  "dn8:19.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. … ",
   "dn2:62.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. ",
-  "dn2:62.2": "This includes rites for propitiation, for granting wishes, for ghosts, for the earth, for rain, for property settlement, and for preparing and consecrating house sites, and rites involving rinsing and bathing, and oblations. It also includes administering emetics, purgatives, expectorants, and phlegmagogues; administering ear-oils, eye restoratives, nasal medicine, ointments, and counter-ointments; surgery with needle and scalpel, treating children, prescribing root medicines, and binding on herbs. ",
-  "dn2:62.3": "They refrain from such low lore, such wrong livelihood. ",
-  "dn2:62.4": "This pertains to their ethics. ",
 
+  # "ANCHOR-REMAP",
+  "dn8:19.2": "",
+  "dn2:62.2": "This includes rites for propitiation, for granting wishes, for ghosts, for the earth, for rain, for property settlement, and for preparing and consecrating house sites, and rites involving rinsing and bathing, and oblations. It also includes administering emetics, purgatives, expectorants, and phlegmagogues; administering ear-oils, eye restoratives, nasal medicine, ointments, and counter-ointments; surgery with needle and scalpel, treating children, prescribing root medicines, and binding on herbs. ",
+
+  # "ANCHOR delete both of these next two",
+  "dn8:19.3": "They refrain from such low lore, such wrong livelihood. ",
+  "dn2:62.3": "They refrain from such low lore, such wrong livelihood. ",
+  
+  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
+
+# "!!! dn2:62.4  25th ethics ANCHOR dn8:19.4   (remap-target for all virtual ethics refrains) i. e. DELETE",
+
+  # "ANCHOR delete both of these next two",
+  "dn8:19.5": "A mendicant thus accomplished in ethics sees no danger in any quarter in regards to their ethical restraint. ",
   "dn2:63.1": "A mendicant thus accomplished in ethics sees no danger in any quarter in regards to their ethical restraint. ",
+
+  # "ANCHOR delete both of these next two",
+  "dn8:19.6": "It’s like a king who has defeated his enemies. He sees no danger from his foes in any quarter. ",
   "dn2:63.2": "It’s like a king who has defeated his enemies. He sees no danger from his foes in any quarter. ",
+
+  # "ANCHOR delete both of these next two",
+  "dn8:19.7": "In the same way, a mendicant thus accomplished in ethics sees no danger in any quarter in regards to their ethical restraint. ",
   "dn2:63.3": "In the same way, a mendicant thus accomplished in ethics sees no danger in any quarter in regards to their ethical restraint. ",
+
+  # "ANCHOR delete both of these next two",
+  "dn8:19.8": "When they have this entire spectrum of noble ethics, they experience a blameless happiness inside themselves. ",
   "dn2:63.4": "When they have this entire spectrum of noble ethics, they experience a blameless happiness inside themselves. ",
+
+  # "ANCHOR delete both of these next two",
+  "dn8:19.9": "That’s how a mendicant is accomplished in ethics. ",
   "dn2:63.5": "That’s how a mendicant is accomplished in ethics. ",
+
+  # "ANCHOR-SUBST delete but make entry in pe=subst.json (already done)",
+  "dn8:19.10": "This, Kassapa, is that accomplishment in ethics. … ",
+
+
   "dn2:63.6": "The longer section on ethics is finished. ",
 
   "dn2:64.0.1": "4.3.2. Immersion ",
@@ -228,45 +339,73 @@
   "dn2:74.4": "Seeing that the hindrances have been given up in them, joy springs up. Being joyful, rapture springs up. When the mind is full of rapture, the body becomes tranquil. When the body is tranquil, they feel bliss. And when blissful, the mind becomes immersed. ",
 
   "dn2:75.0": "4.3.2.5. First Absorption ",
+
+  # "ANCHOR-REMAP",
+  "dn8:19.11": "They enter and remain in the first absorption … ",
   "dn2:75.1": "Quite secluded from sensual pleasures, secluded from unskillful qualities, they enter and remain in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. ",
   "dn2:75.2": "They drench, steep, fill, and spread their body with rapture and bliss born of seclusion. There’s no part of the body that’s not spread with rapture and bliss born of seclusion. ",
 
   "dn2:76.1": "It’s like when a deft bathroom attendant or their apprentice pours bath powder into a bronze dish, sprinkling it little by little with water. They knead it until the ball of bath powder is soaked and saturated with moisture, spread through inside and out; yet no moisture oozes out. ",
   "dn2:76.2": "In the same way, a mendicant drenches, steeps, fills, and spreads their body with rapture and bliss born of seclusion. There’s no part of the body that’s not spread with rapture and bliss born of seclusion. ",
+  "dn8:19.12": "This pertains to their accomplishment in mind. … ",
 
-  # dn2:76.3 - 1st immersion refrain - refrain replacement goes above
+# "dn2:76.3  1st immersion ANCHOR-REMAP dn8:19.12 (to dn8:19.16)   i. e. dn8:19.12: dn8:19.12 with quotes",
 
   "dn2:77.0": "4.3.2.6. Second Absorption ",
+  
+  # "ANCHOR-REMAP",
+  "dn8:19.13": "They enter and remain in the second absorption … ",
   "dn2:77.1": "Furthermore, as the placing of the mind and keeping it connected are stilled, a mendicant enters and remains in the second absorption, which has the rapture and bliss born of immersion, with internal clarity and mind at one, without applying the mind and keeping it connected. ",
   "dn2:77.2": "They drench, steep, fill, and spread their body with rapture and bliss born of immersion. There’s no part of the body that’s not spread with rapture and bliss born of immersion. ",
 
   "dn2:78.1": "It’s like a deep lake fed by spring water. There’s no inlet to the east, west, north, or south, and the heavens would not properly bestow showers from time to time. ",
   "dn2:78.2": "But the stream of cool water welling up in the lake drenches, steeps, fills, and spreads throughout the lake. There’s no part of the lake that’s not spread through with cool water. ",
   "dn2:78.3": "In the same way, a mendicant drenches, steeps, fills, and spreads their body with rapture and bliss born of immersion. There’s no part of the body that’s not spread with rapture and bliss born of immersion. ",
+  "dn8:19.16": "This pertains to their accomplishment in mind. ",
 
-  # dn2:78.4 - 2nd immersion refrain - refrain replacement goes above
+# "dn2:78.4  2nd immersion  VIRTUAL-REMAP to dn8:19.16",
 
   "dn2:79.0": "4.3.2.7. Third Absorption ",
+
+  # "ANCHOR-REMAP",
+  "dn8:19.14": "third absorption … ",
   "dn2:79.1": "Furthermore, with the fading away of rapture, a mendicant enters and remains in the third absorption, where they meditate with equanimity, mindful and aware, personally experiencing the bliss of which the noble ones declare, ‘Equanimous and mindful, one meditates in bliss.’ ",
   "dn2:79.2": "They drench, steep, fill, and spread their body with bliss free of rapture. There’s no part of the body that’s not spread with bliss free of rapture. ",
 
   "dn2:80.1": "It’s like a pool with blue water lilies, or pink or white lotuses. Some of them sprout and grow in the water without rising above it, thriving underwater. From the tip to the root they’re drenched, steeped, filled, and soaked with cool water. There’s no part of them that’s not soaked with cool water. ",
   "dn2:80.2": "In the same way, a mendicant drenches, steeps, fills, and spreads their body with bliss free of rapture. There’s no part of the body that’s not spread with bliss free of rapture. ",
+  "dn8:19.16": "This pertains to their accomplishment in mind. ",
 
-  # dn2:80.3 - 3rd immersion refrain - refrain replacement goes above
+# "dn2:80.3  3rd immersion  VIRTUAL-REMAP to dn8:19.16",
 
   "dn2:81.0": "4.3.2.8. Fourth Absorption ",
+
+  # "ANCHOR-REMAP",
+  "dn8:19.15": "fourth absorption. ",
   "dn2:81.1": "Furthermore, giving up pleasure and pain, and ending former happiness and sadness, a mendicant enters and remains in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness. ",
   "dn2:81.2": "They sit spreading their body through with pure bright mind. There’s no part of the body that’s not spread with pure bright mind. ",
 
   "dn2:82.1": "It’s like someone sitting wrapped from head to foot with white cloth. There’s no part of the body that’s not spread over with white cloth. ",
   "dn2:82.2": "In the same way, they sit spreading their body through with pure bright mind. There’s no part of the body that’s not spread with pure bright mind. ",
+  "dn8:19.16": "This pertains to their accomplishment in mind. ",
 
-  # dn2:82.3 - 4th immersion refrain - refrain replacement goes above
+# "dn2:82.3  4th immersion ANCHOR dn8:19.16  (remap-target for all virtual immersion refrains) i. e. DELETE",
+
+  # "ANCHOR i. e. delete both dn8:19.16 (from this location only) and dn8:19.17, reroot virtual numbering 19.17.1.1",
+  "dn8:19.17": "This, Kassapa, is that accomplishment in mind. ",
 
   "dn2:83.0.1": "4.3.3. The Eight Knowledges ",
   "dn2:83.0.2": "4.3.3.1. Knowledge and Vision ",
+
+  # "ANCHOR-REMAP i.e. map dn8:20.1 to dn2:83.1 but not dn8:20.2 which is a special case, premapped to null string",
+  "dn8:20.1": "When their mind is immersed like this, ",
   "dn2:83.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge and vision. ",
+
+  # "ANCHOR-SUBST delete this segment and reroot numbering from dn8:20.2.1.1",
+  "dn8:20.2": "they project it and extend it toward knowledge and vision … ",
+  # "special case: map dn8:20.2 to null string as shown below. delete lines above",
+  "dn8:20.2": "",
+
   "dn2:83.2": "They understand: ",
   "dn2:83.3": "‘This body of mine is formed. It’s made up of the four principal states, produced by mother and father, built up from rice and porridge, liable to impermanence, to wearing away and erosion, to breaking up and destruction. ",
   "dn2:83.4": "And this consciousness of mine is attached to it, tied to it.’ ",
@@ -280,8 +419,9 @@
   "dn2:84.7": "",
   "dn2:84.8": "",
   "dn2:84.9": "",
+  "dn8:20.3": "This pertains to their accomplishment in wisdom. … ",
   
-  # dn2:84.10 - 1st knowledges refrain / 5th combined refrain - refrain replacement goes above
+# "dn2:84.10  1st wisdom ANCHOR-REMAP dn8:20.3 (to dn8:20.5)",
 
   "dn2:85.0": "4.3.3.2. Mind-Made Body ",
   "dn2:85.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward the creation of a mind-made body. ",
@@ -298,8 +438,9 @@
   "dn2:86.9": "‘This is the snake, this is the slough. The snake and the slough are different things. The snake has been drawn out from the slough.’ ",
   "dn2:86.10": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward the creation of a mind-made body. ",
   "dn2:86.11": "From this body they create another body—formed, mind-made, whole in its major and minor limbs, not deficient in any faculty. ",
+  "dn8:20.5": "This pertains to their accomplishment in wisdom. ",
 
-  # dn2:86.12 - 2nd knowledges refrain / 6th combined refrain - refrain replacement goes above
+# "dn2:86.12  2nd wisdom / 6th combined  VIRTUAL-REMAP TO 8:20.5",
 
   "dn2:87.0": "4.3.3.3. Psychic Powers ",
   "dn2:87.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward psychic power. ",
@@ -310,8 +451,9 @@
   "dn2:88.3": "Or suppose a deft goldsmith or their apprentice had some well-prepared gold. They could produce any kind of gold item that they like. ",
   "dn2:88.4": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward psychic power. ",
   "dn2:88.5": "",
+  "dn8:20.5": "This pertains to their accomplishment in wisdom. ",
 
-  # dn2:88.6 - 3rd knowledges refrain / 7th combined refrain - refrain replacement goes above
+# "dn2:88.6  3rd wisdom / 7th combined  VIRTUAL-REMAP TO 8:20.5",
 
   "dn2:89.0": "4.3.3.4. Clairaudience ",
   "dn2:89.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward clairaudience. ",
@@ -320,8 +462,9 @@
   "dn2:90.1": "Suppose there was a person traveling along the road. They’d hear the sound of drums, clay drums, horns, kettledrums, and tom-toms. They’d think: ‘That’s the sound of drums,’ and ‘that’s the sound of clay drums,’ and ‘that’s the sound of horns, kettledrums, and tom-toms.’ ",
   "dn2:90.2": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward clairaudience. ",
   "dn2:90.3": "With clairaudience that is purified and superhuman, they hear both kinds of sounds, human and heavenly, whether near or far. ",
+  "dn8:20.5": "This pertains to their accomplishment in wisdom. ",
 
-  # dn2:90.4 - 4th knowledges refrain / 8th combined refrain - refrain replacement goes above
+# "dn2:90.4  4th wisdom / 8th combined  VIRTUAL-REMAP TO 8:20.5",
 
   "dn2:91.0": "4.3.3.5. Comprehending the Minds of Others ",
   "dn2:91.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward comprehending the minds of others. ",
@@ -346,8 +489,9 @@
   "dn2:92.1": "Suppose there was a woman or man who was young, youthful, and fond of adornments, and they check their own reflection in a clean bright mirror or a clear bowl of water. If they had a spot they’d know ‘I have a spot,’ and if they had no spots they’d know ‘I have no spots.’ ",
   "dn2:92.2": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward comprehending the minds of others. ",
   "dn2:92.3": "They understand the minds of other beings and individuals, having comprehended them with their own mind. ",
+  "dn8:20.5": "This pertains to their accomplishment in wisdom. ",
   
-  # dn2:92.20 - 5th knowledges refrain / 9th combined refrain - refrain replacement goes above
+# "dn2:92.20  5th wisdom / 9th combined  VIRTUAL-REMAP TO 8:20.5",
 
   "dn2:93.0": "4.3.3.6. Recollection of Past Lives ",
   "dn2:93.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward recollection of past lives. ",
@@ -356,8 +500,9 @@
   "dn2:94.1": "Suppose a person was to leave their home village and go to another village. From that village they’d go to yet another village. And from that village they’d return to their home village. They’d think: ‘I went from my home village to another village. There I stood like this, sat like that, spoke like this, or kept silent like that. From that village I went to yet another village. There too I stood like this, sat like that, spoke like this, or kept silent like that. And from that village I returned to my home village.’ ",
   "dn2:94.2": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward recollection of past lives. ",
   "dn2:94.3": "",
+  "dn8:20.5": "This pertains to their accomplishment in wisdom. ",
 
-  # dn2:94.4 - 6th knowledges refrain / 10th combined refrain - refrain replacement goes above
+# "dn2:94.4  6th wisdom / 10th combined  VIRTUAL-REMAP TO 8:20.5",
 
   "dn2:95.0": "4.3.3.7. Clairvoyance ",
   "dn2:95.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge of the death and rebirth of sentient beings. ",
@@ -366,8 +511,9 @@
   "dn2:96.1": "Suppose there was a stilt longhouse at the central square. A person with clear eyes standing there might see people entering and leaving a house, walking along the streets and paths, and sitting at the central square. They’d think: ‘These are people entering and leaving a house, walking along the streets and paths, and sitting at the central square.’ ",
   "dn2:96.2": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge of the death and rebirth of sentient beings. ",
   "dn2:96.3": "",
+  "dn8:20.5": "This pertains to their accomplishment in wisdom. ",
 
-  # dn2:96.4 - 7th knowledges refrain / 11th combined refrain - refrain replacement goes above
+# "dn2:96.4  7th wisdom / 11th combined  VIRTUAL-REMAP TO 8:20.5",
   
   "dn2:97.0": "4.3.3.8. Ending of Defilements ",
   "dn2:97.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge of the ending of defilements. ",
@@ -375,9 +521,13 @@
   "dn2:97.3": "They truly understand: ‘These are defilements’ … ‘This is the origin of defilements’ … ‘This is the cessation of defilements’ … ‘This is the practice that leads to the cessation of defilements’. ",
   "dn2:97.4": "Knowing and seeing like this, their mind is freed from the defilements of sensuality, desire to be reborn, and ignorance. ",
   "dn2:97.5": "When they’re freed, they know they’re freed. ",
+
+  # "ANCHOR-REMAP",
+  "dn8:20.4": "They understand: ‘… there is nothing further for this place.’ ",
   "dn2:97.6": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’ ",
 
-  # whenever dn2:97.6 gets restored, ensure that these next two are assigned virtual segment numbers also.
+# "whenever dn2:97.6 gets restored, ensure that these next two are assigned virtual segment numbers also.",
+# "looks as if these two will be assigned dn8:20.4.1.1 & dn8:20.4.1.2",
 
   "dn2:98.1": "Suppose that in a mountain glen there was a lake that was transparent, clear, and unclouded. A person with clear eyes standing on the bank would see the clams and mussels, and pebbles and gravel, and schools of fish swimming about or staying still. They’d think: ‘This lake is transparent, clear, and unclouded. And here are the clams and mussels, and pebbles and gravel, and schools of fish swimming about or staying still.’ ",
   "dn2:98.2": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge of the ending of defilements. "
