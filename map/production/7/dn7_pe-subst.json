@@ -1,16 +1,13 @@
 {
-# "consider whether it might not be a good idea to do the substitutions *before* the mapping",
-# "that would make handling both dn2:40.1 and dn2:43.1 a little easier, as well as these 3+ ellipsis deletions",
-  "mapped-to-dn2:40.1" : {
-    "Consider": "x"
+  "dn2:40.1" : {
+    "Consider": "Take the case"
   },
   "" : {
     "4.3": "z"
   },
-  "mapped-to-dn2:43.1" : {
+  "dn2:43.1" : {
     "great king": "y"
   },
-# "everytime we map to one of these next three, we need to add another one of these ellipsis deletions for it",
   "dn7:2.11" : {
     " …": ""
   },
