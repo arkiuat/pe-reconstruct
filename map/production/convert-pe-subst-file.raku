@@ -1,13 +1,23 @@
 #!/usr/bin/env raku
 # script to convert the *_pe-subst.json files from the assumption that mappings are done before substitutions
 #        to assuming the opposite order (replace seg-ids by the seg-ids that they are mapped to)
+#
+# i. e. we used to do mappings first and then substs, but frequently one line that needed substs would get
+# mapped-to by several virtuals. Doing it this way makes the pe-subst.json files smaller.
+#
+# THIS IS A SCRIPT FOR ONE-TIME-USE. It almost certainly should never need to be run ever again.
+# (but I'm glad I kept it around, because I forgot to do it on the half-baked Pali subst files I had
+# lying around until days after I thought I was finished with this.)
+
 use JSON::Tiny;
 
 sub MAIN ( Int $sutta-num? where { !$sutta-num.defined or 3 <= $sutta-num <= 13 } ) {
     my @suttas = 3 .. 13;
     @suttas = $sutta-num, if $sutta-num.defined; # the comma constructs a one-element list
     for @suttas -> $sut-num {
-	my $path = "../en/dn{$sut-num}_pe-subst-en-sujato.json";	# old production substs
+      ### uncomment one of the following three lines if for some reason you ever need to run this again
+      # my $path = "../en/dn{$sut-num}_pe-subst-en-sujato.json";	# old en production substs
+      # my $path = "../pli/dn{$sut-num}_pe-subst-pli-ms.json";		# old pli production substs
       #	my $path = "./{$sut-num}/dn{$sut-num}_pe-subst.json";		# newly produced substs
 	$*ERR.print: "$sut-num ";
 	my $subst = read-map($path);
