@@ -6,7 +6,7 @@
   "dn2:41.1": "A householder hears that teaching, or a householder’s child, or someone reborn in a good family. ",
   "dn2:41.2": "They gain faith in the Realized One ",
   
-  # "ANCHOR-REMAP",
+# "ANCHOR-REMAP",
   "dn3:2.2.7": "and reflect … ",
   "dn2:41.3": "and reflect: ",
 
@@ -233,7 +233,7 @@
 
   "dn2:75.0": "4.3.2.5. First Absorption ",
 
-  # "ANCHOR-REMAP",
+# "ANCHOR-REMAP",
   "dn3:2.2.8": "Quite secluded from sensual pleasures, secluded from unskillful qualities, they enter and remain in the first absorption … ",
   "dn2:75.1": "Quite secluded from sensual pleasures, secluded from unskillful qualities, they enter and remain in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. ",
 
@@ -247,7 +247,7 @@
 
   "dn2:77.0": "4.3.2.6. Second Absorption ",
 
-  # "ANCHOR-REMAP",
+# "ANCHOR-REMAP",
   "dn3:2.2.10": "Furthermore, as the placing of the mind and keeping it connected are stilled, a mendicant enters and remains in the second absorption … ",
   "dn2:77.1": "Furthermore, as the placing of the mind and keeping it connected are stilled, a mendicant enters and remains in the second absorption, which has the rapture and bliss born of immersion, with internal clarity and mind at one, without applying the mind and keeping it connected. ",
 
@@ -262,7 +262,7 @@
 
   "dn2:79.0": "4.3.2.7. Third Absorption ",
 
-  # "ANCHOR-REMAP",
+# "ANCHOR-REMAP",
   "dn3:2.2.12": "Furthermore, with the fading away of rapture, they enter and remain in the third absorption … ",
   "dn2:79.1": "Furthermore, with the fading away of rapture, a mendicant enters and remains in the third absorption, where they meditate with equanimity, mindful and aware, personally experiencing the bliss of which the noble ones declare, ‘Equanimous and mindful, one meditates in bliss.’ ",
 
@@ -276,7 +276,7 @@
 
   "dn2:81.0": "4.3.2.8. Fourth Absorption ",
 
-  # "ANCHOR-REMAP",
+# "ANCHOR-REMAP",
   "dn3:2.2.14": "Furthermore, giving up pleasure and pain, and ending former happiness and sadness, they enter and remain in the fourth absorption … ",
   "dn2:81.1": "Furthermore, giving up pleasure and pain, and ending former happiness and sadness, a mendicant enters and remains in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness. ",
 
@@ -330,7 +330,7 @@
   "dn2:86.11": "From this body they create another body—formed, mind-made, whole in its major and minor limbs, not deficient in any faculty. ",
   "dn3:2.2.20": "This pertains to their knowledge. ",
 
-  # "dn2:86.12  VIRTUAL-REMAP  2nd knowledges refrain",
+# "dn2:86.12  VIRTUAL-REMAP  2nd knowledges refrain",
 
   "dn2:87.0": "4.3.3.3. Psychic Powers ",
   "dn2:87.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward psychic power. ",
@@ -343,7 +343,7 @@
   "dn2:88.5": "",
   "dn3:2.2.20": "This pertains to their knowledge. ",
 
-  # "dn2:88.6  VIRTUAL-REMAP  3rd knowledges refrain",
+# "dn2:88.6  VIRTUAL-REMAP  3rd knowledges refrain",
 
   "dn2:89.0": "4.3.3.4. Clairaudience ",
   "dn2:89.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward clairaudience. ",
@@ -354,7 +354,7 @@
   "dn2:90.3": "With clairaudience that is purified and superhuman, they hear both kinds of sounds, human and heavenly, whether near or far. ",
   "dn3:2.2.20": "This pertains to their knowledge. ",
 
-  # "dn2:90.4  VIRTUAL-REMAP  4th knowledges refrain",
+# "dn2:90.4  VIRTUAL-REMAP  4th knowledges refrain",
 
   "dn2:91.0": "4.3.3.5. Comprehending the Minds of Others ",
   "dn2:91.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward comprehending the minds of others. ",
@@ -381,7 +381,7 @@
   "dn2:92.3": "They understand the minds of other beings and individuals, having comprehended them with their own mind. ",
   "dn3:2.2.20": "This pertains to their knowledge. ",
   
-  # "dn2:92.20 VIRTUAL-REMAP  - 5th knowledges refrain",
+# "dn2:92.20 VIRTUAL-REMAP  - 5th knowledges refrain",
 
   "dn2:93.0": "4.3.3.6. Recollection of Past Lives ",
   "dn2:93.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward recollection of past lives. ",
@@ -392,7 +392,7 @@
   "dn2:94.3": "",
   "dn3:2.2.20": "This pertains to their knowledge. ",
 
-  # "dn2:94.4 VIRTUAL-REMAP  - 6th knowledges refrain",
+# "dn2:94.4 VIRTUAL-REMAP  - 6th knowledges refrain",
 
   "dn2:95.0": "4.3.3.7. Clairvoyance ",
   "dn2:95.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge of the death and rebirth of sentient beings. ",
@@ -403,7 +403,7 @@
   "dn2:96.3": "",
   "dn3:2.2.20": "This pertains to their knowledge. ",
 
-  # "dn2:96.4 VIRTUAL-REMAP  - 7th knowledges refrain", 
+# "dn2:96.4 VIRTUAL-REMAP  - 7th knowledges refrain", 
   
   "dn2:97.0": "4.3.3.8. Ending of Defilements ",
   "dn2:97.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge of the ending of defilements. ",
@@ -412,7 +412,7 @@
   "dn2:97.4": "Knowing and seeing like this, their mind is freed from the defilements of sensuality, desire to be reborn, and ignorance. ",
   "dn2:97.5": "When they’re freed, they know they’re freed. ",
 
-  # "ANCHOR-REMAP",
+# "ANCHOR-REMAP",
   "dn3:2.2.19": "They understand: ‘There is nothing further for this place.’ ",
   "dn2:97.6": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’ ",
 
