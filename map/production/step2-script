@@ -1,9 +1,11 @@
+# probably going to rename this step3-script eventually
+#
 # the lines are all commented out to prevent accidental overwrites of work in progress
 # when you're sure you actually want to run the script, uncomment the lines, run it, and then reprotect
 
 for s in {3..13}
 do 
+#    cp ../bilara-data/translation/en/sujato/sutta/dn/dn${s}_translation-en-sujato.json $s/dn${s}-anchors.json
 #    cp template-pe-map.json $s/dn${s}_pe-map.json
 #    cp template-pe-subst.json $s/dn${s}_pe-subst.json
-#    cp ../bilara-data/translation/en/sujato/sutta/dn/dn${s}_translation-en-sujato.json $s/dn${s}-anchors.json
 done
