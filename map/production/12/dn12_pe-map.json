@@ -1,5 +1,8 @@
 {
+# "VIRTUAL-REMAP",
+  "dn12:20-55.1": "“It’s when a Realized One arises in the world, perfected, a fully awakened Buddha … ",
   "dn2:40.1": "“Consider when a Realized One arises in the world, perfected, a fully awakened Buddha, accomplished in knowledge and conduct, holy, knower of the world, supreme guide for those who wish to train, teacher of gods and humans, awakened, blessed. ",
+
   "dn2:40.2": "He has realized with his own insight this world—with its gods, Māras, and divinities, this population with its ascetics and brahmins, gods and humans—and he makes it known to others. ",
   "dn2:40.3": "He proclaims a teaching that is good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And he reveals a spiritual practice that’s entirely full and pure. ",
 
@@ -143,7 +146,11 @@
   "dn2:63.2": "It’s like a king who has defeated his enemies. He sees no danger from his foes in any quarter. ",
   "dn2:63.3": "In the same way, a mendicant thus accomplished in ethics sees no danger in any quarter in regards to their ethical restraint. ",
   "dn2:63.4": "When they have this entire spectrum of noble ethics, they experience a blameless happiness inside themselves. ",
+
+# "VIRTUAL-REMAP",
+  "dn12:20-55.2": "That’s how a mendicant is accomplished in ethics. … ",
   "dn2:63.5": "That’s how a mendicant is accomplished in ethics. ",
+
   "dn2:63.6": "The longer section on ethics is finished. ",
 
   "dn2:64.0.1": "4.3.2. Immersion ",
@@ -228,45 +235,74 @@
   "dn2:74.4": "Seeing that the hindrances have been given up in them, joy springs up. Being joyful, rapture springs up. When the mind is full of rapture, the body becomes tranquil. When the body is tranquil, they feel bliss. And when blissful, the mind becomes immersed. ",
 
   "dn2:75.0": "4.3.2.5. First Absorption ",
+
+# "VIRTUAL-REMAP",
+  "dn12:20-55.3": "They enter and remain in the first absorption … ",
   "dn2:75.1": "Quite secluded from sensual pleasures, secluded from unskillful qualities, they enter and remain in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. ",
+
   "dn2:75.2": "They drench, steep, fill, and spread their body with rapture and bliss born of seclusion. There’s no part of the body that’s not spread with rapture and bliss born of seclusion. ",
 
   "dn2:76.1": "It’s like when a deft bathroom attendant or their apprentice pours bath powder into a bronze dish, sprinkling it little by little with water. They knead it until the ball of bath powder is soaked and saturated with moisture, spread through inside and out; yet no moisture oozes out. ",
   "dn2:76.2": "In the same way, a mendicant drenches, steeps, fills, and spreads their body with rapture and bliss born of seclusion. There’s no part of the body that’s not spread with rapture and bliss born of seclusion. ",
+  "dn12:20-55.4": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. ",
+  "dn12:20-55.5": "When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy. ",
 
-# "dn2:76.3  -  [1st immersion|1st combined]",
+# "1st combined   VIRTUAL-REMAP dn12:20-55.4-5 if this weren't allocated-range, it would be ANCHOR fka dn2:76.3",
+
+# "VIRTUAL-REMAP corresponds to a solitary …pe… in the root text, and no other text (ordinarily ANCHOR)",
+  "dn12:56-62.1": "",
 
   "dn2:77.0": "4.3.2.6. Second Absorption ",
+# "VIRTUAL-REMAP",
+  "dn12:56-62.2": "They enter and remain in the second absorption … ",
   "dn2:77.1": "Furthermore, as the placing of the mind and keeping it connected are stilled, a mendicant enters and remains in the second absorption, which has the rapture and bliss born of immersion, with internal clarity and mind at one, without applying the mind and keeping it connected. ",
   "dn2:77.2": "They drench, steep, fill, and spread their body with rapture and bliss born of immersion. There’s no part of the body that’s not spread with rapture and bliss born of immersion. ",
 
   "dn2:78.1": "It’s like a deep lake fed by spring water. There’s no inlet to the east, west, north, or south, and the heavens would not properly bestow showers from time to time. ",
   "dn2:78.2": "But the stream of cool water welling up in the lake drenches, steeps, fills, and spreads throughout the lake. There’s no part of the lake that’s not spread through with cool water. ",
   "dn2:78.3": "In the same way, a mendicant drenches, steeps, fills, and spreads their body with rapture and bliss born of immersion. There’s no part of the body that’s not spread with rapture and bliss born of immersion. ",
+  "dn12:63-77.6": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy.” ",
 
-# "dn2:78.4  -  [2nd immersion|2nd combined]",
+# "dn2:78.4  VIRTUAL-REMAP  2nd combined",
 
   "dn2:79.0": "4.3.2.7. Third Absorption ",
+
+# "VIRTUAL-REMAP",
+  "dn12:56-62.3": "third absorption … ",
   "dn2:79.1": "Furthermore, with the fading away of rapture, a mendicant enters and remains in the third absorption, where they meditate with equanimity, mindful and aware, personally experiencing the bliss of which the noble ones declare, ‘Equanimous and mindful, one meditates in bliss.’ ",
+
   "dn2:79.2": "They drench, steep, fill, and spread their body with bliss free of rapture. There’s no part of the body that’s not spread with bliss free of rapture. ",
 
   "dn2:80.1": "It’s like a pool with blue water lilies, or pink or white lotuses. Some of them sprout and grow in the water without rising above it, thriving underwater. From the tip to the root they’re drenched, steeped, filled, and soaked with cool water. There’s no part of them that’s not soaked with cool water. ",
   "dn2:80.2": "In the same way, a mendicant drenches, steeps, fills, and spreads their body with bliss free of rapture. There’s no part of the body that’s not spread with bliss free of rapture. ",
+  "dn12:63-77.6": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy.” ",
 
-# "dn2:80.3  -  [3rd immersion|3rd combined]",
+# "dn2:80.3  VIRTUAL-REMAP  3rd combined",
 
   "dn2:81.0": "4.3.2.8. Fourth Absorption ",
+
+# "VIRTUAL-REMAP",
+  "dn12:56-62.4": "fourth absorption. ",
   "dn2:81.1": "Furthermore, giving up pleasure and pain, and ending former happiness and sadness, a mendicant enters and remains in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness. ",
+
   "dn2:81.2": "They sit spreading their body through with pure bright mind. There’s no part of the body that’s not spread with pure bright mind. ",
 
   "dn2:82.1": "It’s like someone sitting wrapped from head to foot with white cloth. There’s no part of the body that’s not spread over with white cloth. ",
   "dn2:82.2": "In the same way, they sit spreading their body through with pure bright mind. There’s no part of the body that’s not spread with pure bright mind. ",
+  "dn12:63-77.6": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy.” ",
 
-# "dn2:82.3  -  [4th immersion|4th combined]",
+# "4th combined  VIRTUAL-REMAP to dn12:63-77.6  fka dn12:56-62.5 goes away  ffka dn2:82.3",
+
+# "VIRTUAL-REMAP corresponds to a solitary …pe… in the root text, and no other text (ordinarily ANCHOR)",
+  "dn12:63-77.1": "",
 
   "dn2:83.0.1": "4.3.3. The Eight Knowledges ",
   "dn2:83.0.2": "4.3.3.1. Knowledge and Vision ",
+
+# "VIRTUAL-REMAP",
+  "dn12:63-77.2": "They project and extend the mind toward knowledge and vision … ",
   "dn2:83.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge and vision. ",
+
   "dn2:83.2": "They understand: ",
   "dn2:83.3": "‘This body of mine is formed. It’s made up of the four principal states, produced by mother and father, built up from rice and porridge, liable to impermanence, to wearing away and erosion, to breaking up and destruction. ",
   "dn2:83.4": "And this consciousness of mine is attached to it, tied to it.’ ",
@@ -280,8 +316,10 @@
   "dn2:84.7": "",
   "dn2:84.8": "",
   "dn2:84.9": "",
+  "dn12:63-77.6": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy.” ",
+
+# "5th combined   VIRTUAL-REMAP to dn12:63-77.6  fka dn12:63-77.3 goes away  ffka dn2:84.10",
   
-# "dn2:84.10  -  [1st wisdom|5th combined]",
 
   "dn2:85.0": "4.3.3.2. Mind-Made Body ",
   "dn2:85.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward the creation of a mind-made body. ",
@@ -298,8 +336,9 @@
   "dn2:86.9": "‘This is the snake, this is the slough. The snake and the slough are different things. The snake has been drawn out from the slough.’ ",
   "dn2:86.10": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward the creation of a mind-made body. ",
   "dn2:86.11": "From this body they create another body—formed, mind-made, whole in its major and minor limbs, not deficient in any faculty. ",
+  "dn12:63-77.6": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy.” ",
 
-# "dn2:86.12  -  [2nd wisdom|6th combined]",
+# "dn2:86.12  VIRTUAL-REMAP  6th combined",
 
   "dn2:87.0": "4.3.3.3. Psychic Powers ",
   "dn2:87.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward psychic power. ",
@@ -310,8 +349,9 @@
   "dn2:88.3": "Or suppose a deft goldsmith or their apprentice had some well-prepared gold. They could produce any kind of gold item that they like. ",
   "dn2:88.4": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward psychic power. ",
   "dn2:88.5": "",
+  "dn12:63-77.6": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy.” ",
 
-# "dn2:88.6  -  [3rd wisdom|7th combined]",
+# "dn2:88.6  VIRTUAL-REMAP  7th combined",
 
   "dn2:89.0": "4.3.3.4. Clairaudience ",
   "dn2:89.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward clairaudience. ",
@@ -320,8 +360,9 @@
   "dn2:90.1": "Suppose there was a person traveling along the road. They’d hear the sound of drums, clay drums, horns, kettledrums, and tom-toms. They’d think: ‘That’s the sound of drums,’ and ‘that’s the sound of clay drums,’ and ‘that’s the sound of horns, kettledrums, and tom-toms.’ ",
   "dn2:90.2": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward clairaudience. ",
   "dn2:90.3": "With clairaudience that is purified and superhuman, they hear both kinds of sounds, human and heavenly, whether near or far. ",
+  "dn12:63-77.6": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy.” ",
 
-# "dn2:90.4  -  [4th wisdom|8th combined]",
+# "dn2:90.4  VIRTUAL-REMAP  8th combined",
 
   "dn2:91.0": "4.3.3.5. Comprehending the Minds of Others ",
   "dn2:91.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward comprehending the minds of others. ",
@@ -346,8 +387,9 @@
   "dn2:92.1": "Suppose there was a woman or man who was young, youthful, and fond of adornments, and they check their own reflection in a clean bright mirror or a clear bowl of water. If they had a spot they’d know ‘I have a spot,’ and if they had no spots they’d know ‘I have no spots.’ ",
   "dn2:92.2": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward comprehending the minds of others. ",
   "dn2:92.3": "They understand the minds of other beings and individuals, having comprehended them with their own mind. ",
-  
-# "dn2:92.20  -  [5th wisdom|9th combined]",
+  "dn12:63-77.6": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy.” ",
+
+# "dn2:92.20  VIRTUAL-REMAP  9th combined",
 
   "dn2:93.0": "4.3.3.6. Recollection of Past Lives ",
   "dn2:93.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward recollection of past lives. ",
@@ -356,8 +398,9 @@
   "dn2:94.1": "Suppose a person was to leave their home village and go to another village. From that village they’d go to yet another village. And from that village they’d return to their home village. They’d think: ‘I went from my home village to another village. There I stood like this, sat like that, spoke like this, or kept silent like that. From that village I went to yet another village. There too I stood like this, sat like that, spoke like this, or kept silent like that. And from that village I returned to my home village.’ ",
   "dn2:94.2": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward recollection of past lives. ",
   "dn2:94.3": "",
+  "dn12:63-77.6": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy.” ",
 
-# "dn2:94.4  -  [6th wisdom|10th combined]",
+# "dn2:94.4  VIRTUAL-REMAP  10th combined",
 
   "dn2:95.0": "4.3.3.7. Clairvoyance ",
   "dn2:95.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge of the death and rebirth of sentient beings. ",
@@ -366,8 +409,12 @@
   "dn2:96.1": "Suppose there was a stilt longhouse at the central square. A person with clear eyes standing there might see people entering and leaving a house, walking along the streets and paths, and sitting at the central square. They’d think: ‘These are people entering and leaving a house, walking along the streets and paths, and sitting at the central square.’ ",
   "dn2:96.2": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge of the death and rebirth of sentient beings. ",
   "dn2:96.3": "",
+  "dn12:63-77.6": "A teacher under whom a disciple achieves such a high distinction is one who does not deserve to be reprimanded. When someone reprimands such a teacher, the reprimand is false, baseless, illegitimate, and blameworthy.” ",
 
-# "dn2:96.4  -  [7th wisdom|11th combined]",
+# "dn2:96.4  VIRTUAL-REMAP  11th combined",
+
+# "VIRTUAL-REMAP corresponds to a solitary …pe… in the root text, and no other text (ordinarily ANCHOR)",
+  "dn12:63-77.4": "",
   
   "dn2:97.0": "4.3.3.8. Ending of Defilements ",
   "dn2:97.1": "When their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge of the ending of defilements. ",
@@ -375,9 +422,12 @@
   "dn2:97.3": "They truly understand: ‘These are defilements’ … ‘This is the origin of defilements’ … ‘This is the cessation of defilements’ … ‘This is the practice that leads to the cessation of defilements’. ",
   "dn2:97.4": "Knowing and seeing like this, their mind is freed from the defilements of sensuality, desire to be reborn, and ignorance. ",
   "dn2:97.5": "When they’re freed, they know they’re freed. ",
+
+# "VIRTUAL-REMAP",
+  "dn12:63-77.5": "They understand: ‘… there is nothing further for this place.’ ",
   "dn2:97.6": "They understand: ‘Rebirth is ended, the spiritual journey has been completed, what had to be done has been done, there is nothing further for this place.’ ",
 
-# "indicate the virtnum reset for the virtuals assigned to dn2:98.1-2 (which immediately follow dn2:97.6)",
+# "virtnum reset from Big Spreadsheet",
 
   "dn2:98.1": "Suppose that in a mountain glen there was a lake that was transparent, clear, and unclouded. A person with clear eyes standing on the bank would see the clams and mussels, and pebbles and gravel, and schools of fish swimming about or staying still. They’d think: ‘This lake is transparent, clear, and unclouded. And here are the clams and mussels, and pebbles and gravel, and schools of fish swimming about or staying still.’ ",
   "dn2:98.2": "In the same way, when their mind has become immersed in samādhi like this—purified, bright, flawless, rid of corruptions, pliable, workable, steady, and imperturbable—they project it and extend it toward knowledge of the ending of defilements. "
