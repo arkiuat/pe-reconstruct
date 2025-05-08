@@ -5,5 +5,5 @@ for s in {3..13}
 do 
 #    cp template-pe-map.json $s/dn${s}_pe-map.json
 #    cp template-pe-subst.json $s/dn${s}_pe-subst.json
-#    cp ~/a/bilara-data/translation/en/sujato/sutta/dn/dn${s}_translation-en-sujato.json $s/dn${s}-anchors.json
+#    cp ../bilara-data/translation/en/sujato/sutta/dn/dn${s}_translation-en-sujato.json $s/dn${s}-anchors.json
 done
