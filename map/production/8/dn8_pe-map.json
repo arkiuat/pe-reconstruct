@@ -16,8 +16,8 @@
   "dn8:18.4.1.0.1": "dn2:43.0.1",
   "dn8:18.4.1.0.2": "dn2:43.0.2",
 
-# "dn2:43.1 ANCHOR delete dn8:18.5",
-# "dn2:43.2 ANCHOR delete dn8:18.6",
+# "dn8:18.5 ANCHOR delete dn2:43.1",
+# "dn8:18.6 ANCHOR delete dn2:43.2",
   "dn8:18.7": "dn8:19.4",
 # "dn2:43.3  1st ethics ANCHOR-REMAP to dn8:19.4",
   "dn8:18.7.1.1": "dn2:43.4",
@@ -40,7 +40,6 @@
   "dn8:18.7.2.8": "dn8:19.4",
 # "dn2:44.8  7th ethics VIRTUAL-REMAP to dn8:19.4",
 
-
   "dn8:18.7.3.1": "dn2:45.1",
   "dn8:18.7.3.2": "dn2:45.2",
   "dn8:18.7.3.3": "dn2:45.3",
@@ -62,173 +61,120 @@
   "dn8:18.7.3.19": "dn2:45.19",
   "dn8:18.7.3.20": "dn8:19.4",
 # "dn2:45.20  8th ethics VIRTUAL-REMAP to dn8:19.4",
+
   "dn8:18.7.3.21": "dn2:45.21",
 
-"dn8:18.7.3.21": 
-  "dn2:46.0": "4.3.1.2. The Middle Section on Ethics ",
-  "dn2:46.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in injuring plants and seeds. ",
-  "dn2:46.2": "These include plants propagated from roots, stems, cuttings, or joints; and those from regular seeds as the fifth. They refrain from such injury to plants and seeds. ",
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-  
+  "dn8:18.7.4.0": "dn2:46.0",
+  "dn8:18.7.4.1": "dn2:46.1",
+  "dn8:18.7.4.2": "dn2:46.2",
+  "dn8:18.7.4.3": "dn8:19.4",
 # "dn2:46.3  9th ethics VIRTUAL-REMAP to dn8:19.4",
 
-
-  "dn2:47.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in storing up goods for their own use. ",
-  "dn2:47.2": "This includes such things as food, drink, clothes, vehicles, bedding, fragrance, and things of the flesh. ",
-  "dn2:47.3": "They refrain from storing up such goods. ",
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-
+  "dn8:18.7.5.1":  "dn2:47.1",
+  "dn8:18.7.5.2": "dn2:47.2",
+  "dn8:18.7.5.3": "dn2:47.3",
+  "dn8:18.7.5.4": "dn8:19.4",
 # "dn2:47.4  10th ethics VIRTUAL-REMAP to dn8:19.4",
 
-
-  "dn2:48.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in seeing shows. ",
-  "dn2:48.2": "This includes such things as dancing, singing, music, performances, and storytelling; clapping, gongs, and kettledrums; beauty pageants; pole-acrobatics and bone-washing displays of the corpse-workers; battles of elephants, horses, buffaloes, bulls, goats, rams, chickens, and quails; staff-fights, boxing, and wrestling; combat, roll calls of the armed forces, battle-formations, and regimental reviews. ",
-  "dn2:48.3": "They refrain from such shows. ",
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-
+  "dn8:18.7.6.1": "dn2:48.1",
+  "dn8:18.7.6.2": "dn2:48.2",
+  "dn8:18.7.6.3": "dn2:48.3",
+  "dn8:18.7.6.4": "dn8:19.4",
 # "dn2:48.4  11th ethics VIRTUAL-REMAP to dn8:19.4",
 
-
-  "dn2:49.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in gambling that causes negligence. ",
-  "dn2:49.2": "This includes such things as checkers with eight or ten rows, checkers in the air, hopscotch, spillikins, board-games, tip-cat, drawing straws, dice, leaf-flutes, toy plows, somersaults, pinwheels, toy measures, toy carts, toy bows, guessing words from syllables, guessing another’s thoughts, and imitating musical instruments. ",
-  "dn2:49.3": "They refrain from such gambling. ",
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-
+  "dn8:18.7.7.1": "dn2:49.1",
+  "dn8:18.7.7.2": "dn2:49.2",
+  "dn8:18.7.7.3": "dn2:49.3",
+  "dn8:18.7.7.4": "dn8:19.4",
 # "dn2:49.4  12th ethics VIRTUAL-REMAP to dn8:19.4",
 
-
-  "dn2:50.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still make use of high and luxurious bedding. ",
-  "dn2:50.2": "This includes such things as sofas, couches, woolen covers—shag-piled, colorful, white, embroidered with flowers, quilted, embroidered with animals, double-or single-fringed—and silk covers studded with gems, as well as silken sheets, woven carpets, rugs for elephants, horses, or chariots, antelope hide rugs, and spreads of fine deer hide, with a canopy above and red cushions at both ends. ",
-  "dn2:50.3": "They refrain from such bedding. ",
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-
+  "dn8:18.7.8.1": "dn2:50.1",
+  "dn8:18.7.8.2": "dn2:50.2",
+  "dn8:18.7.8.3": "dn2:50.3",
+  "dn8:18.7.8.4": "dn8:19.4",
 # "dn2:50.4  13th ethics VIRTUAL-REMAP to dn8:19.4",
 
-
-  "dn2:51.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in beautifying and adorning themselves with garlands, fragrance, and makeup. ",
-  "dn2:51.2": "This includes such things as applying beauty products by anointing, massaging, bathing, and rubbing; mirrors, ointments, garlands, fragrances, and makeup; face-powder, foundation, bracelets, headbands, fancy walking-sticks or containers, rapiers, parasols, fancy sandals, turbans, jewelry, chowries, and long-fringed white robes. ",
-  "dn2:51.3": "They refrain from such beautification and adornment. ",
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-
+  "dn8:18.7.9.1": "dn2:51.1",
+  "dn8:18.7.9.2": "dn2:51.2",
+  "dn8:18.7.9.3": "dn2:51.3",
+  "dn8:18.7.9.4": "dn8:19.4",
 # "dn2:51.4  14th ethics VIRTUAL-REMAP to dn8:19.4",
 
-
-  "dn2:52.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in low talk. ",
-  "dn2:52.2": "This includes such topics as talk about kings, bandits, and ministers; talk about armies, threats, and wars; talk about food, drink, clothes, and beds; talk about garlands and fragrances; talk about family, vehicles, villages, towns, cities, and countries; talk about women and heroes; street talk and well talk; talk about the departed; motley talk; tales of land and sea; and talk about being reborn in this or that place. ",
-  "dn2:52.3": "They refrain from such low talk. ",
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-
+  "dn8:18.7.10.1": "dn2:52.1",
+  "dn8:18.7.10.2": "dn2:52.2",
+  "dn8:18.7.10.3": "dn2:52.3",
+  "dn8:18.7.10.4": "dn8:19.4",
 # "dn2:52.4  15th ethics VIRTUAL-REMAP to dn8:19.4",
 
-
-  "dn2:53.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in arguments. ",
-  "dn2:53.2": "They say such things as: ‘You don’t understand this teaching and training. I understand this teaching and training. What, you understand this teaching and training? You’re practicing wrong. I’m practicing right. I stay on topic, you don’t. You said last what you should have said first. You said first what you should have said last. What you’ve thought so much about has been disproved. Your doctrine is refuted. Go on, save your doctrine! You’re trapped; get yourself out of this—if you can!’ ",
-  "dn2:53.3": "They refrain from such argumentative talk. ",
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-
+  "dn8:18.7.11.1": "dn2:53.1",
+  "dn8:18.7.11.2": "dn2:53.2",
+  "dn8:18.7.11.3": "dn2:53.3",
+  "dn8:18.7.11.4": "dn8:19.4",
 # "dn2:53.4  16th ethics VIRTUAL-REMAP to dn8:19.4",
 
-
-  "dn2:54.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in running errands and messages. ",
-  "dn2:54.2": "This includes running errands for rulers, ministers, aristocrats, brahmins, householders, or princes who say: ‘Go here, go there. Take this, bring that from there.’ ",
-  "dn2:54.3": "They refrain from such errands. ",
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-
+  "dn8:18.7.12.1": "dn2:54.1",
+  "dn8:18.7.12.2": "dn2:54.2",
+  "dn8:18.7.12.3": "dn2:54.3",
+  "dn8:18.7.12.4": "dn8:19.4",
 # "dn2:54.4  17th ethics VIRTUAL-REMAP to dn8:19.4",
 
-
-  "dn2:55.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in deceit, flattery, hinting, and belittling, and using material things to chase after other material things. They refrain from such deceit and flattery. ",
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-
+  "dn8:18.7.13.1": "dn2:55.1",
+  "dn8:18.7.13.4": "dn8:19.4",
 # "dn2:55.2  18th ethics VIRTUAL-REMAP to dn8:19.4",
 
-  "dn2:55.3": "The middle section on ethics is finished. ",
+  "dn8:18.7.13.3": "dn2:55.3",
 
-  "dn2:56.0": "4.3.1.3. The Long Section on Ethics ",
-  "dn2:56.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. ",
-  "dn2:56.2": "This includes such fields as limb-reading, omenology, divining celestial portents, interpreting dreams, divining bodily marks, divining holes in cloth gnawed by mice, fire offerings, ladle offerings, offerings of husks, rice powder, rice, ghee, or oil; offerings from the mouth, blood sacrifices, palmistry; geomancy for building sites, fields, and cemeteries; exorcisms, earth magic, snake charming, poisons; the lore of the scorpion, the rat, the bird, and the crow; prophesying lifespan, chanting for protection, and divining omens from wild animals. ",
-  "dn2:56.3": "They refrain from such low lore, such wrong livelihood. ",
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-
+  "dn8:18.7.14.0": "dn2:56.0",
+  "dn8:18.7.14.1": "dn2:56.1",
+  "dn8:18.7.14.2": "dn2:56.2",
+  "dn8:18.7.14.3": "dn2:56.3",
+  "dn8:18.7.14.4": "dn8:19.4",
 # "dn2:56.4  19th ethics VIRTUAL-REMAP to dn8:19.4",
 
-
-  "dn2:57.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. ",
-  "dn2:57.2": "This includes reading the marks of gems, cloth, clubs, swords, spears, arrows, bows, weapons, women, men, boys, girls, male and female bondservants, elephants, horses, buffaloes, bulls, cows, goats, rams, chickens, quails, monitor lizards, rabbits, tortoises, or deer. ",
-  "dn2:57.3": "They refrain from such low lore, such wrong livelihood. ",
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-  
+  "dn8:18.7.15.1": "dn2:57.1",
+  "dn8:18.7.15.2": "dn2:57.2",
+  "dn8:18.7.15.3": "dn2:57.3",
+  "dn8:18.7.15.4": "dn8:19.4",
 # "dn2:57.4  20th ethics VIRTUAL-REMAP to dn8:19.4",
-
-
-  "dn2:58.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. ",
-  "dn2:58.2": "This includes making predictions that the king will march forth or march back; or that our king will attack and the enemy king will retreat, or vice versa; or that our king will triumph and the enemy king will be defeated, or vice versa; and so there will be victory for one and defeat for the other. ",
-  "dn2:58.3": "They refrain from such low lore, such wrong livelihood. ",
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-
+ 
+  "dn8:18.7.16.1":  "dn2:58.1",
+  "dn8:18.7.16.2": "dn2:58.2",
+  "dn8:18.7.16.3": "dn2:58.3",
+  "dn8:18.7.16.4": "dn8:19.4",
 # "dn2:58.4  21st ethics VIRTUAL-REMAP to dn8:19.4",
 
-  "dn2:59.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. ",
-  "dn2:59.2": "This includes making predictions that there will be an eclipse of the moon, or sun, or stars; that the sun, moon, and stars will be in conjunction or in opposition; that there will be a meteor shower, a fiery sky, an earthquake, or thunder in the heavens; that there will be a rising, a setting, a darkening, a brightening of the moon, sun, and stars. And it also includes making predictions about the results of all such phenomena. ",
-  "dn2:59.3": "They refrain from such low lore, such wrong livelihood. ",
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-
+  "dn8:18.7.17.1": "dn2:59.1",
+  "dn8:18.7.17.2": "dn2:59.2",
+  "dn8:18.7.17.3": "dn2:59.3",
+  "dn8:18.7.17.4": "dn8:19.4",
 # "dn2:59.4  22nd ethics VIRTUAL-REMAP to dn8:19.4",
 
-  "dn2:60.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. ",
-  "dn2:60.2": "This includes predicting whether there will be plenty of rain or drought; plenty to eat or famine; an abundant harvest or a bad harvest; security or peril; sickness or health. It also includes such occupations as arithmetic, accounting, calculating, poetry, and cosmology. ",
-  "dn2:60.3": "They refrain from such low lore, such wrong livelihood. ",
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-
+  "dn8:18.7.18.1": "dn2:60.1",
+  "dn8:18.7.18.2": "dn2:60.2",
+  "dn8:18.7.18.3": "dn2:60.3",
+  "dn8:18.7.18.4": "dn8:19.4",
 # "dn2:60.4  23rd ethics VIRTUAL-REMAP to dn8:19.4",
 
-  "dn2:61.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. ",
-  "dn2:61.2": "This includes making arrangements for giving and taking in marriage; for engagement and divorce; and for scattering rice inwards or outwards at the wedding ceremony. It also includes casting spells for good or bad luck, treating impacted fetuses, binding the tongue, or locking the jaws; charms for the hands and ears; questioning a mirror, a girl, or a god as an oracle; worshiping the sun, worshiping the Great One, breathing fire, and invoking Siri, the goddess of luck. ",
-  "dn2:61.3": "They refrain from such low lore, such wrong livelihood. ",
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-
+  "dn8:18.7.19.1": "dn2:61.1",
+  "dn8:18.7.19.2": "dn2:61.2",
+  "dn8:18.7.19.3": "dn2:61.3",
+  "dn8:18.7.19.4": "dn8:19.4",
 # "dn2:61.4  24th ethics VIRTUAL-REMAP to dn8:19.4",
 
-# "ANCHOR-REMAP",
-  "dn8:19.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. … ",
-  "dn2:62.1": "There are some ascetics and brahmins who, while enjoying food given in faith, still earn a living by low lore, by wrong livelihood. ",
+  "dn8:19.1": "dn2:62.1",
+  "dn8:19.2": "dn2:62.2",
+# "dn2:62.3 ANCHOR delete dn8:19.3",
+# "dn2:62.4  25th ethics ANCHOR delete dn8:19.4   (remap-target for all virtual ethics refrains)",
 
-# "ANCHOR-REMAP",
-  "dn8:19.2": "",
-  "dn2:62.2": "This includes rites for propitiation, for granting wishes, for ghosts, for the earth, for rain, for property settlement, and for preparing and consecrating house sites, and rites involving rinsing and bathing, and oblations. It also includes administering emetics, purgatives, expectorants, and phlegmagogues; administering ear-oils, eye restoratives, nasal medicine, ointments, and counter-ointments; surgery with needle and scalpel, treating children, prescribing root medicines, and binding on herbs. ",
-
-# "ANCHOR delete both of these next two",
-  "dn8:19.3": "They refrain from such low lore, such wrong livelihood. ",
-  "dn2:62.3": "They refrain from such low lore, such wrong livelihood. ",
-  
-  "dn8:19.4": "This pertains to their accomplishment in ethics. ",
-
-# "!!! dn2:62.4  25th ethics ANCHOR dn8:19.4   (remap-target for all virtual ethics refrains) i. e. DELETE",
-
-# "ANCHOR delete both of these next two",
-  "dn8:19.5": "A mendicant thus accomplished in ethics sees no danger in any quarter in regards to their ethical restraint. ",
-  "dn2:63.1": "A mendicant thus accomplished in ethics sees no danger in any quarter in regards to their ethical restraint. ",
-
-# "ANCHOR delete both of these next two",
-  "dn8:19.6": "It’s like a king who has defeated his enemies. He sees no danger from his foes in any quarter. ",
-  "dn2:63.2": "It’s like a king who has defeated his enemies. He sees no danger from his foes in any quarter. ",
-
-# "ANCHOR delete both of these next two",
-  "dn8:19.7": "In the same way, a mendicant thus accomplished in ethics sees no danger in any quarter in regards to their ethical restraint. ",
-  "dn2:63.3": "In the same way, a mendicant thus accomplished in ethics sees no danger in any quarter in regards to their ethical restraint. ",
-
-# "ANCHOR delete both of these next two",
-  "dn8:19.8": "When they have this entire spectrum of noble ethics, they experience a blameless happiness inside themselves. ",
-  "dn2:63.4": "When they have this entire spectrum of noble ethics, they experience a blameless happiness inside themselves. ",
-
-# "ANCHOR delete both of these next two",
-  "dn8:19.9": "That’s how a mendicant is accomplished in ethics. ",
-  "dn2:63.5": "That’s how a mendicant is accomplished in ethics. ",
-
-# "ANCHOR-SUBST delete but make entry in pe=subst.json (already done)",
-  "dn8:19.10": "This, Kassapa, is that accomplishment in ethics. … ",
+# "dn2:63.1 ANCHOR delete dn8:19.5",
+# "dn2:63.2 ANCHOR delete dn8:19.6",
+# "dn2:63.3 ANCHOR delete dn8:19.7",
+# "dn2:63.4 ANCHOR delete dn8:19.8",
+# "dn2:63.5 ANCHOR delete dn8:19.9",
+# "ANCHOR-SUBST addendum segment dn8:19.10, delete but made entry in pe=subst.json",
 
 
+"dn8:19.10.1.1": 
   "dn2:63.6": "The longer section on ethics is finished. ",
 
   "dn2:64.0.1": "4.3.2. Immersion ",
