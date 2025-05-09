@@ -3,7 +3,10 @@ to have a special case in the code, because this can in fact be handled
 with a pe-subst.json entry. Which is how I'm handling it now.
 
 
-### old way (and explanation of problem)
+### 
+
+old way (and explanation of problem)
+------------------------------------
 
 dn8:20.1 and dn8:20.2 are an unnecessarily split anchor segment.
 The two segments together correspond to a single DN2 segment,
