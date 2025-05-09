@@ -1,3 +1,20 @@
+I just noticed that if we keep the anchor segment (with equivalent text), like so:
+
+% grep dn2:43\.2 /dn8*
+dn8-map-orig-setup.json:# "dn2:43.2 ANCHOR delete this segment (after virtnum reset), which replaces dn2:43.2",
+dn8-penultimate-map.json:# "dn8:18.6 ANCHOR delete dn2:43.2",
+
+instead of mapping it to its DN 2 equivalent, then we lose the commentary footnote, which is attached
+to the DN 2 segment, but not present in the DN 8 cognate and so absent for this anchor segment. So in such
+cases, we should map to DN 2, and 
+
+PERHAPS WE NEED TO MAKE ALWAYS PREFERRING THE DN2 SEGMENT TO "this sutta's" SEGMENT A MATTER OF POLICY.
+
+So I need to put that in policy. But I'm done with the fourth pass over DN 8 and this will have to wait
+until the 5th pass.
+
+###
+
 dn8:19.1 could be mapped to any one of 
 	dn2:56.1
 	dn2:57.1
