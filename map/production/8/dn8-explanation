@@ -1,3 +1,9 @@
+Issues in fourth pass over DN 8
+===============================
+
+Loss of comments when not mapping to identical DN 2 segment
+-----------------------------------------------------------
+
 I just noticed that if we keep the anchor segment (with equivalent text), like so:
 
 % grep dn2:43\.2 /dn8*
@@ -11,9 +17,14 @@ cases, we should map to DN 2, and
 PERHAPS WE NEED TO MAKE ALWAYS PREFERRING THE DN2 SEGMENT TO "this sutta's" SEGMENT A MATTER OF POLICY.
 
 So I need to put that in policy. But I'm done with the fourth pass over DN 8 and this will have to wait
-until the 5th pass.
+until the 5th pass.  I've added this policy to the procedural write-up under the tagging step: henceforth
+the only segments we'll use the ANCHOR tag (which results in this problem) on are addendum segments
+which have no DN 2 equivalent.  All other segments that *do* have DN 2 equivalents will always be tagged
+ANCHOR-REMAP on the fifth pass and after.
 
-###
+
+Ambiguous placement of dn8:19.1
+-------------------------------
 
 dn8:19.1 could be mapped to any one of 
 	dn2:56.1
@@ -23,44 +34,28 @@ dn8:19.1 could be mapped to any one of
 	dn2:60.1
 	dn2:61.1
 	dn2:62.1
+as these segments all have identical text. They're a kind of
+"long-ethics-section refrain".
 
-On the fourth pass, I mapped it to dn2:62.1 for some reason.
+On the fourth pass, at first I mapped it to dn2:62.1 for some reason.
 
 But I like the virtual segment IDs that result from mapping it to
-dn2:56.1 better, as I did on the third pass. So we're making this
-a policy decision:
+dn2:56.1 better, as I did on the third pass. So I went back and
+fixed it, and we're making this a policy decision:
 
 Always map dn8:19.1 to dn2:56.1
 
-###
 
-Below is a way I handled this before, but I decided it's better NOT
-to have a special case in the code, because this can in fact be handled 
-with a pe-subst.json entry. Which is how I'm handling it now.
-
-
-### 
-
-old way (and explanation of problem)
-------------------------------------
-
+Split anchor segment dn8:20.1-2
+-------------------------------
 dn8:20.1 and dn8:20.2 are an unnecessarily split anchor segment.
 The two segments together correspond to a single DN2 segment,
 dn2:83.1
 
 The splitting and mismatch is in the Pāli root text, so there's no
-messing around with it. I handled this by introducing some special
-case code in the reconstruction script.
+messing around with it. 
 
-We map dn8:20.1 to dn2:83.1, and we map dn8:20.2 to the null string
-(NOT the same thing as mapping it to a segment ID that points to a
-null string). The special case code causes the script to assign a null
-string as the final text for that segment (and there are many such
-already in the translations of these suttas) and not go looking for
-its text from the original sutta (default behavior for a segment
-ID that doesn't appear in the map).
-
-If we just left dn8:20.2 out of the map file, it would assume it
-was a correct line from DN 8 (it's totally not, it's just a fragment
-of one) and include it, unmodified, in the result.
-
+This can be handled with a pe-subst.json entry, which is why
+there's a funny-looking subst entry for dn8:20.2 blanking out
+the line (we remapped dn8:20.1 to the segment that contains the 
+equivalent of both 20.1 & 20.2).
