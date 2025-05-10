@@ -1,13 +1,12 @@
 # Gitignore for Raku (https://raku.org)
-# As part of https://github.com/github/gitignore
-
 # precompiled files
 .precomp
 lib/.precomp
 
-# personal out-of-the-way dirs
-reconstruct/*.json
+# personal additions
+.DS_store
+reconst/*.json
 miscdev
 
-# Apple strews these about
-.DS_store
+# JSON files frequently generated in /reconst for testing
+#  if to be kept, they should be moved to /demo

@@ -173,8 +173,8 @@ segment-aligned translations. If I get collaborative support, we may
 do this for segment-aligned translations into other languages.
 
 * Because proper support for interlinear and side-by-side display
-is the newest feature added before initial publication, I may not
-yet have finished constructing all of the pe-subst-pli-ms.json files
+is the newest feature added before initial publication, I have not
+yet finished constructing all of the pe-subst-pli-ms.json files
 correctly. Originally I hadn't intended to touch the Pāli root
 text, but once things got to a certain point, it seemed a shame not
 to support interlinear and side-by-side display. These will be
@@ -196,9 +196,9 @@ hand-building a pe-map.json file for each individual sutta, and for
 the time being, I'm the only one doing that kind of thing.
 
 
-My for-real personal to-do that I should delete before advertising
-------------------------------------------------------------------
+Current TODOs
+-------------
 
-1. do the fourth pass over all the map & subst jsons to test the new procedure you wrote
-2. finish fixing up the pli/ms subst.jsons to support side-by-side & interlinear
-3. finish the write-up of issues encountered that @snowbird expressed interest in 
+1. finish fixing up the pli/ms subst.jsons to support side-by-side & interlinear
+2. finish the write-up of issues encountered that @snowbird expressed interest in 
+3. continuous ongoing passes (currently 4th) refining production of pe-{map,subst}.json files
