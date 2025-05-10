@@ -2,8 +2,8 @@
 # script to expand the anupubbasikkhā peyyāla in Sujato's translations of DN's Sīlakkhandhavagga
 use JSON::Tiny;
 my constant @cognates    = <translation html comment root variant reference>;
-my constant $RECONST-DIR = 'reconst';  	# relative to . (pe); prefix '../bilara-data/' if you want that
-my %cache;				# cache so we don't have to read & parse dn2 eleven times
+my constant $RECONST-DIR = 'reconst';  	# relative to . ; prefix '../bilara-data/' if you want that
+my %cache;				# cache so we don't read & parse dn2 eleven times
 
 # Takes up to two optional arguments:
 #   with one argument, an integer from 3 to 13, restores all cognates of that sutta of DN
@@ -85,10 +85,7 @@ sub expand-peyyala (Map $suttacog, Map $dn2cog, Hash $reconst, Map $subst) {
     return $reconst;
 }
 
-# correct-text: given a map of segment-IDs to text and a parsed pe-subst.json file,
-# retrieves the text associated with that seg-id in that map, 
-# makes any text replacements specified by the pe-subst, and returns the result
-# 
+# correct-text: returns the text of $cog{$seg-id}, corrected according to $subst's specifications
 sub correct-text (Map $cog, Map $subst, Str $seg-id) {
     my $text = $cog{$seg-id};
     if $subst{$seg-id}:exists {
@@ -156,14 +153,13 @@ sub seg-id-cmp (Str $id1, Str $id2) {
 
 # TODO
 #
-# 1. Add a ton of error-checking! Try to anticipate the weird situations 
-#    users might get into. Nothing fancy, just die with an informative
-#    error message.
-#
-# 2. The current {$s}_pe-subst-pli-ms.json files (to enable reasonable
+# 1. The current {$s}_pe-subst-pli-ms.json files (to enable reasonable
 #    side-by-side and interlinear display) are still just stubs copied
-#    from the English ones; need real ones. Making this lower priority
-#    for now because it's a data issue, not a programming issue.
+#    from the English ones; need real ones. 
+#
+# 2. Add a ton of error-checking! Try to anticipate the weird situations 
+#    users might get into. Nothing fancy, just write to the error stream
+#    with "note". Failing silently sucks.
 #
 # 3. Might want jsonify's parameter to be a Map, since we don't want it
 #    to be modified, but that might mean we need to cast Hash to Map
