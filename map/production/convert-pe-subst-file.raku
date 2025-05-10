@@ -49,6 +49,7 @@ sub read-map ( Str $path ) {
 
 
 # jsonify: we don't use JSON::Tiny's to-json for output, because not sorted by seg-id and no whitespace
+# 	   (This mods restore-sutta's version to be recursive for Associatives but not Positionals.)
 sub jsonify (Hash $segment) {
     my @json;
     for $segment.keys.sort(&seg-id-cmp) -> $id { 

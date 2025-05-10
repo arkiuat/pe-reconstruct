@@ -128,6 +128,7 @@ sub cognate-pathname (Str $sut, Str $cog) {
 }
 
 # jsonify: we don't use JSON::Tiny's to-json for output, because not sorted by seg-id and no whitespace
+# 	   (I should probably be using a more elaborate library instead, but did this first.)
 sub jsonify (Hash $segment) {
     my @json;
     for $segment.keys.sort(&seg-id-cmp) -> $id { 
