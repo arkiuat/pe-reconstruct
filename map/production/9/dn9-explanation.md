@@ -10,7 +10,7 @@ kind of thing might affect side-by-side and interlinear display of
 an expanded sutta text, so I'm making a note of it here.
 
 If I wanted to prevent this sort of thing in the future, the first
-thing that comes to mind is, while continuing to get my *texts* for
+thing that comes to mind is, while continuing to get the texts for
 each segment ID from the translation file, get the canonical list
 of segments (and their IDs) for each sutta only from the ms/pli/root
 texts. 
