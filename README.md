@@ -49,12 +49,15 @@ segmentation changes, specifically the segment numbering.
 
 There are some textual substitutions that need to be made in the
 DN 2 text for the English translation, mostly subsection numbers
-and interlocutor addresses. For interlinear or side-by-side display
-of the Pāli text, the interlocutor changes etc. should also be made.
-These are provided for by the two pe-subst.json files for each
-sutta. Unlike the pe-map.json file, the pe-subst.json files for
-English may need to be modified or remade from scratch for each
-particular version.
+and interlocutor addresses. These are provided for by one of two
+pe-subst.json files for each sutta. Unlike the pe-map.json file,
+the pe-subst.json files for English may need to be modified or
+remade from scratch for each particular version.
+
+Full support for interlinear or side-by-side display of the Pāli
+root text is planned but has not yet been implemented as of May
+2025. A second set of pe-subst.json files needs to be provided for
+this.
 
 How to run the demo
 -------------------
