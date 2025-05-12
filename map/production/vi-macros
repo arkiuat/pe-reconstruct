@@ -1,6 +1,5 @@
 let @h='use :source to load this file'
-let @u='kWWF:C,F.lywBF.pldt"kyf PF.h'
-let @p='kDP'
-let @k='}dd'
+let @u='^WWF:C,F.lywBF.pldt"^yWPF.h'
+let @p='^DP'
 let @s='pj3yyPddkWC{jj:wkj'
 let @j='nkddkJj'
