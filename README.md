@@ -48,8 +48,8 @@ segmentation changes, specifically the segment numbering.
 ### The pe-subst.json files ###
 
 There are some textual substitutions that need to be made in the
-DN 2 text for the English translation These are provided for by one
-of two pe-subst.json files for each sutta.  The pe-subst.json files
+DN 2 text for the English translation. These are provided for by one
+of two pe-subst.json files for each sutta. The pe-subst.json files
 for English may need to be modified more often than the pe-map.json
 files, as translations are revised, but because the vast majority
 of the substitutions are section numbering and interlocutor vocatives
