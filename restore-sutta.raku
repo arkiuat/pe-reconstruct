@@ -1,7 +1,12 @@
 #!/usr/bin/env raku
 # script to expand the anupubbasikkhā peyyāla in Sujato's translations of DN's Sīlakkhandhavagga
 use JSON::Tiny;
-my constant @cognates    = <translation html comment root variant reference>;
+#
+# we shouldn't touch root or variant cognates until the pe-subst-pli-ms.json files are in place
+# 	add these two cognates back in once ready to do so
+#my constant @cognates    = <translation html comment root variant reference>;
+my constant @cognates    = <translation html comment reference>;
+
 my constant $RECONST-DIR = 'reconst';  	# relative to . ; prefix '../bilara-data/' if you want that
 my %cache;				# cache so we don't read & parse dn2 eleven times
 
