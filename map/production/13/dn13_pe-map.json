@@ -1,4 +1,7 @@
 {
+# "DON'T FORGET THAT THIS IS AN ALLOCATED-RANGES SUTTA",
+# "CONSULT THE BIG SPREADSHEET",
+
 # "VIRTUAL-REMAP  text is fine, so map to this segment, but it needs a segment ID from the allocated range",
   "dn13:40-75.0": "4. Teaching the Path to the Divinity ",
 
