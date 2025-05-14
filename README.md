@@ -205,4 +205,4 @@ Current TODOs
 
 1. finish fixing up the pli/ms subst.jsons to support side-by-side & interlinear
 2. finish the write-up of issues encountered that @snowbird expressed interest in 
-3. continuous ongoing passes (currently 4th) refining production of pe-{map,subst}.json files
+3. finish documenting production process for pe-{map,subst}.json files; do 5th pass
