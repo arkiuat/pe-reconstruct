@@ -1,12 +1,8 @@
 #!/usr/bin/env raku
 # script to expand the anupubbasikkhā peyyāla in Sujato's translations of DN's Sīlakkhandhavagga
 use JSON::Tiny;
-#
-# we shouldn't touch root or variant cognates until the pe-subst-pli-ms.json files are in place
-# 	add these two cognates back in once ready to do so
-#my constant @cognates    = <translation html comment root variant reference>;
-my constant @cognates    = <translation html comment reference>;
 
+my constant @cognates    = <translation html comment root variant reference>;
 my constant $RECONST-DIR = 'reconst';  	# relative to . ; prefix '../bilara-data/' if you want that
 my %cache;				# cache so we don't read & parse dn2 eleven times
 
@@ -137,9 +133,22 @@ sub cognate-pathname (Str $sut, Str $cog) {
 sub jsonify (Hash $segment) {
     my @json;
     for $segment.keys.sort(&seg-id-cmp) -> $id { 
+	given $segment{$id} {
+	    when ! .defined { 
+		    next;
+	    }
+	    # this recursively handles Associatives but not Positionals (pe-subst.json uses Associatives)
+	    when Associative { 
+		$segment{$id} = jsonify($segment{$id});
+	    }
+	    default { 
+		$segment{$id} = q["] ~ $segment{$id} ~ q["];
+	    }
+	}
 	next unless $segment{$id}.defined;
-	@json.push( (q[  "], $id, q[": "], $segment{$id}, q[",]).join );
+	@json.push( (q["], $id, q[": ], $segment{$id}, q[,]).join );
     }
+    for @json { s:g/^^/  / }
     @json.unshift( q[{] );
     @json[*-1] ~~ s/\,$//;
     @json.push( q[}] );
