@@ -52,7 +52,6 @@ sub reconstruct-cognate (Str $sut, Str $cog, Map $pe-map) {
     }
     my $suttasegs = Map.new( from-json($sut-path.IO.slurp).kv );
   # unless $suttasegs.kv { note "cannot parse $sut-path" }
-    $*ERR.print( ' ', $cog.comb(2,1)[0] );
     my $json = jsonify( 
 	expand-peyyala($suttasegs, $dn2segs, $pe-map.Hash, pe-subst($sut, $cog)) 
     );
@@ -65,9 +64,9 @@ sub reconstruct-cognate (Str $sut, Str $cog, Map $pe-map) {
        	s| '/pli/ms/sutta/dn' ||;
     }
     if $reconst-path.IO.e and $json eqv $reconst-path.IO.slurp {
-	$*ERR.print: " unchanged,";
 	next;
     }
+    $*ERR.print( ' ', $cog );
     $reconst-path.IO.spurt: $json;
 }
 
