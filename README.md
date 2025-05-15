@@ -47,18 +47,20 @@ segmentation changes, specifically the segment numbering.
 
 ### The pe-subst.json files ###
 
-There are some textual substitutions that need to be made in the
-DN 2 text for the English translation. These are provided for by one
-of two pe-subst.json files for each sutta. The pe-subst.json files
-for English may need to be modified more often than the pe-map.json
-files, as translations are revised, but because the vast majority
-of the substitutions are section numbering and interlocutor vocatives
-(both unlikely to change), they should be almost as stable.
+There are some textual substitutions in the DN 2 text needed for
+the English translation, and a separate set needed for full support
+of interlinear & side-by-side display of root text.  These are
+provided for by two pe-subst.json files for each sutta.
 
-Full support for interlinear or side-by-side display of the Pāli
-root text is planned but has not yet been implemented as of May
-2025. A second set of pe-subst.json files needs to be provided for
-this.
+The vast majority of these changes are subsection numbering and
+interlocutor vocatives, so while the pe-subst-en-sujato.json files
+may need updates more often than pe-map, they should be quite stable
+once completed.
+
+Support for interlinear or side-by-side display of the Pāli root
+text is partially implemented as of May 2025. Please look over the
+reconstructions of the root texts provided for this purpose and let
+me know what I've missed.
 
 How to run the demo
 -------------------
@@ -195,14 +197,23 @@ suttas used as source for the material to be restored, so in that
 iteration of the project, neither DN nor DN2 will be hard-coded in
 anymore.
 
+Other updates
+-------------
+
 Of course, no peyyala can be restored by this system without
 hand-building a pe-map.json file for each individual sutta, and for
 the time being, I'm the only one doing that kind of thing.
+To address this, once I've improved the production process as much
+as I can, I plan to document it and post it here.
 
 
 Current TODOs
 -------------
 
-1. finish fixing up the pli/ms subst.jsons to support side-by-side & interlinear
-2. finish the write-up of issues encountered that @snowbird expressed interest in 
-3. finish documenting production process for pe-{map,subst}.json files; do 5th pass
+* rewrite this README to address TLDR (say same in fewer words)
+* finish producing subst-pli-ms.json files for DN6 & DN7
+* double-check accuracy & completeness of the subst-pli-ms.jsons (HELP NEEDED)
+* finish the write-up of issues encountered that Ven. @snowbird expressed interest in 
+* finish documenting production process for pe-{map,subst}.json files; do 5th pass
+* consider rewriting restore-sutta script in Python. What JSON module do SC's python scripts use?
+* begin identifying longer peyyālas in Majjhima Nikāya's first 50
