@@ -1,9 +1,9 @@
 Future contents
 ===============
 
-Eventually this file will contain a description of the process
+Eventually this file will document the process
 followed to produce the pe-map.json and pe-subst.json files.  This
-process is currently being revised during the 4th production pass
+process is currently being revised during the 5th production pass
 for DN Sīlakkhandhavagga.
 
 For now, you can look at 

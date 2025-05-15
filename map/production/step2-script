@@ -5,7 +5,8 @@
 
 for s in {3..13}
 do 
-#    cp ../bilara-data/translation/en/sujato/sutta/dn/dn${s}_translation-en-sujato.json $s/dn${s}-anchors.json
-#    cp template-pe-map.json $s/dn${s}_pe-map.json
-#    cp template-pe-subst.json $s/dn${s}_pe-subst.json
+#   cp template-pe-map.json dn${s}_pe-map.json
+#   cp template-pe-subst-en-sujato.json dn${s}_pe-subst-en-sujato.json
+#   cp template-pe-subst-pli-ms.json dn${s}_pe-subst-pli-ms.json
+#   cp ../bilara-data/translation/en/sujato/sutta/dn/dn${s}_translation-en-sujato.json dn${s}-anchors.json
 done
