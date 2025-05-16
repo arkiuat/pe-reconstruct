@@ -1,0 +1,99 @@
+let @h='use :source to load this file'
+let @u='^WWF:C,F.lywBF.pldt"^yWPF.h'
+let @p='^DP'
+let @s='pj3yyPddkWC{jj:wkj'
+let @j='nkddkJj'
+
+The @p & @u macros
+------------------
+
+First we document @u, the most complicated one that generate the virtual segment IDs, and its helper macro
+@p, which we'll explain first. (The @p macro helps with the set-up for @u.)
+
+EXPLAIN THE SETUP HERE WITH EXAMPLES, AND WHAT @p does
+
+What it does: it copies the final component of the mapped-to segment ID into (replacing) the final component
+of the mapped-from (virtual) segment ID. Usually this is what you want. It's designed to be used with a 
+number prefixed, the number of lines in the "paragraph" you're working on.
+
+let @u='^WWF:C,F.lywBF.pldt"^yWPF.h'
+
+let @u='
+^WWF:
+C,
+F.l
+yw
+BF.
+p
+l
+dt"
+^y
+f P
+F.h
+'
+
+^WWF:C,F.lywBF.pldt"^yf PF.h
+
+We break the @u macro down into POSITIONING and EDITING components in strict alternation
+Terminology: FIND means F or f.  TO means T or t. I'll say "previous" or "next" to indicate upper/lower case.
+Some editing components necessarily contain what looks like positioning: dt" means delete between here and the next "
+The macro begins with a POSITIONING component ^WWF:
+
+Starting from 1st non-ws, advance two bigwords and then FIND previous colon
+^WWF:
+
+from that point, change the rest of the line into a comma
+C,
+
+then FIND the previous . and position the cursor to the right of it
+F.l
+
+copy the word at that point (which is a number, the final component of the mapped-to segment ID)
+yw
+
+go to the beginning of current bigword, then FIND the previous .
+BF.
+
+paste the number you copied
+p
+
+position the cursor to the right of the number you pasted
+l
+
+delete the number you just replaced
+dt"
+
+TWO COMBINED (because sig whitespace)
+go back to 1st non-ws on line, and copy the bigword that starts the line, paste it at the beginning of the next
+^yf P
+
+position the cursor to manually increment the section number, at the end of each group of lines
+F.h
+
+<end-of-macro>
+
+USAGE: once the setup is done, before executing @u, enter the number of repetitions, which usually but
+certainly not always just the final component of the last segment ID in the paragraph you're about to modify.
+
+And that's it! That's @u. I'm thinking that the 'f ' in that second last part might be replaced by a W?
+
+###
+
+The next most complicated is @s, which makes entries in the pe-subst.json for subsection numbers.
+
+To set up for @s, copy an unmodified subsection heading line into the paste buffer, switch to
+the editing buffer for the pe-subst.json file, and position the cursor on the trailing comma of the 
+line before the blank subsection-renumbering template (which is just three lines in the json file)
+
+###
+
+Further development possibilities
+---------------------------------
+
+I do spend a lot of time typing a number (usually r and a digit to increment the section number)
+and then @p4@u so perhaps
+
+	@p4@u
+
+might be usefully chained into a special case megamacro. That would save 3 keystrokes per standard-size
+section.
